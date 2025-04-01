@@ -1,0 +1,14 @@
+[
+  { "id": 1, "url": "/assets/images/gallery/boating.jpg" },
+  { "id": 2, "url": "/assets/images/gallery/car.jpg" },
+  { "id": 3, "url": "/assets/images/gallery/forest.jpg" },
+  { "id": 4, "url": "/assets/images/gallery/lake.jpg" },
+  { "id": 5, "url": "/assets/images/gallery/lighthouse.jpg" },
+  { "id": 6, "url": "/assets/images/gallery/mountain.jpg" },
+  { "id": 7, "url": "/assets/images/gallery/nature.jpg" },
+  { "id": 8, "url": "/assets/images/gallery/nycity.jpg" },
+  { "id": 9, "url": "/assets/images/gallery/car.jpg" },
+  { "id": 10, "url": "/assets/images/gallery/lake.jpg" },
+  { "id": 11, "url": "/assets/images/gallery/lighthouse.jpg" },
+  { "id": 12, "url": "/assets/images/gallery/mountain.jpg" }
+]

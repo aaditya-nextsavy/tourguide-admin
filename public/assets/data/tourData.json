@@ -1,0 +1,2423 @@
+{
+    "cities": [
+      {
+        "id": 1,
+        "city_name": "Toronto",
+        "slug": "toronto",
+       
+        "image_alt": "toronto-image",
+        "image": "/assets/images/cities/nyc.jpg",
+        "description": "A bustling metropolis blending traditional culture and futuristic technology.",
+        "popularity": 10,
+        "activities": [
+          "water",
+          "adrenaline",
+          "hidden gems",
+          "street art & graffiti",
+          "food"
+        ],
+        "similiar_tours": [
+          {
+            "tour_id": 101,
+            "tour_city_name": "New York",
+            "tour_slug": "new-york-central-park",
+            "tour_image": "new-york-central-park.jpg",
+            "duration": "3 hours",
+            "options": ["guided", "self-guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.8, 4.5, 5],
+              "total_reviews": 765
+            },
+            "availability": "Available"
+          },
+          {
+            "tour_id": 102,
+            "tour_city_name": "New York",
+            "tour_slug": "new-york-architecture-tour",
+            "tour_image": "new-york-architecture.jpg",
+            "duration": "4 hours",
+            "options": ["guided"],
+            "transport_facility_availability": "Not Available",
+            "for_whom": ["solo traveler", "group"],
+            "review": {
+              "stars": [4.6, 4.7],
+              "total_reviews": 330
+            },
+            "availability": "Available"
+          }
+        ],
+        "related_city_tours": [
+          {
+            "tour_id": 202,
+            "tour_city_name": "London",
+            "tour_slug": "london-eye",
+            "tour_city_title":"Alaska: Westminster to Greenwich River Thames",
+            "tour_image": "/assets/images/cities/nyc.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },
+          {
+            "tour_id": 203,
+            "tour_city_name": "London",
+            "tour_city_title":"Alaska: Westminster to Greenwich River Thames",
+            "tour_slug": "london-eye",
+            "tour_image": "/assets/images/cities/nyc.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },{
+            "tour_id": 204,
+            "tour_city_name": "London",
+            "tour_city_title":"Alaska: Westminster to Greenwich River Thames",
+
+            "tour_slug": "london-eye",
+            "tour_image": "/assets/images/cities/nyc.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },{
+            "tour_id": 205,
+            "tour_city_name": "London",
+            "tour_city_title":"Alaska: Westminster to Greenwich River Thames",
+
+            "tour_slug": "london-eye",
+            "tour_image": "/assets/images/cities/nyc.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          }
+
+        ]
+      },
+
+
+
+
+
+
+
+      {
+        "id": 2,
+        "city_name": "California",
+        "slug": "california",
+        "image": "/assets/images/california.jpg",
+        "image_alt":"california",
+        "popularity": 9,
+        "description": "Known for its beaches, vineyards, and the entertainment capital, California is a hub of culture and outdoor adventures.",
+
+        "activities": [
+          "adrenaline",
+          "nature",
+          "good for social distancing",
+          "hidden gems"
+        ],
+        "similiar_tours": [
+          {
+            "tour_id": 103,
+            "tour_city_name": "California",
+            "tour_slug": "california-road-trip",
+            "tour_image": "california-road-trip.jpg",
+            "duration": "7 days",
+            "options": ["guided", "self-guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "group"],
+            "review": {
+              "stars": [4.9, 4.8],
+              "total_reviews": 530
+            },
+            "availability": "Available"
+          }
+        ],
+        "related_city_tours": [
+          {
+            "tour_id": 302,
+            "tour_city_name": "california",
+            "tour_slug": "california-eye",
+            "tour_city_title":"california: Westminster to Greenwich River Thames",
+            "tour_image": "/assets/images/cities/california.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },
+          {
+            "tour_id": 303,
+            "tour_city_name": "california",
+            "tour_slug": "california-eye",
+            "tour_city_title":"california: Westminster to Greenwich River Thames",
+            "tour_image": "/assets/images/cities/california.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },
+          {
+            "tour_id": 304,
+            "tour_city_name": "california",
+            "tour_slug": "california-eye",
+            "tour_city_title":"california: Westminster to Greenwich River Thames",
+            "tour_image": "/assets/images/cities/california.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },
+          
+          {
+            "tour_id": 305,
+            "tour_city_name": "california",
+            "tour_slug": "california-eye",
+            "tour_city_title":"california: Westminster to Greenwich River Thames",
+            "tour_image": "/assets/images/cities/california.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          }
+
+        ]
+      },
+      {
+        "id": 3,
+        "city_name": "Alaska",
+        "slug": "alaska",
+        "image": "/assets/images/alaska.jpg",
+        "image_alt": "alaska-image.jpg",
+        "popularity": 8,
+        "description": "Explore the wild beauty of Alaska's vast landscapes, glaciers, and wildlife.",
+        "activities": [
+          "nature",
+          "hidden gems",
+          "adrenaline"
+        ],
+        "similiar_tours": [
+          {
+            "tour_id": 104,
+            "tour_city_name": "Alaska",
+            "tour_slug": "alaska-wildlife-tour",
+            "tour_image": "alaska-wildlife.jpg",
+            "duration": "4 days",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "group"],
+            "review": {
+              "stars": [5, 4.7],
+              "total_reviews": 280
+            },
+            "availability": "Available"
+          }
+        ],
+        "related_city_tours": [
+          {
+            "tour_id": 202,
+            "tour_city_name": "London",
+            "tour_city_title":"Alaska: Westminster to Greenwich River Thames",
+            "tour_slug": "london-eye",
+            "tour_image":  "/assets/images/alaska.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },
+          {
+            "tour_id": 203,
+            "tour_city_name": "London",
+            "tour_city_title":"Alaska: Westminster to Greenwich River Thames",
+            "tour_slug": "london-eye",
+            "tour_image":  "/assets/images/alaska.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },{
+            "tour_id": 204,
+            "tour_city_name": "London",
+            "tour_city_title":"Alaska: Westminster to Greenwich River Thames",
+
+            "tour_slug": "london-eye",
+            "tour_image":  "/assets/images/alaska.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },{
+            "tour_id": 205,
+            "tour_city_name": "London",
+            "tour_city_title":"Alaska: Westminster to Greenwich River Thames",
+
+            "tour_slug": "london-eye",
+            "tour_image":  "/assets/images/alaska.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          }
+
+        ]
+      },
+      {
+        "id": 4,
+        "city_name": "Sydney",
+        "slug": "sydney",
+        "image": "/assets/images/australia.jpg",
+        "image_alt": "sydney-image.jpg",
+        "description": "Experience the laid-back lifestyle, incredible beaches, and unique wildlife of Australia.",
+        "popularity": 9,
+        "activities": [
+          "water",
+          "adrenaline",
+          "nature",
+          "food"
+        ],
+        "similiar_tours": [
+          {
+            "tour_id": 105,
+            "tour_city_name": "Sydney",
+            "tour_slug": "sydney-harbour-tour",
+            "tour_image": "sydney-harbour.jpg",
+            "duration": "2 hours",
+            "options": ["guided", "self-guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.9, 4.6],
+              "total_reviews": 530
+            },
+            "availability": "Available"
+          }
+        ],
+        "related_city_tours": [
+          {
+            "tour_id": 304,
+            "tour_city_name": "Sydney",
+            "tour_slug": "Sydney-eye",
+            "tour_city_title":"Sydney: Westminster to Greenwich River Thames",
+            "tour_image": "/assets/images/cities/australia.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },
+          {
+            "tour_id": 307,
+            "tour_city_name": "Sydney",
+            "tour_slug": "Sydney-eye",
+            "tour_city_title":"Sydney: Westminster to Greenwich River Thames",
+            "tour_image": "/assets/images/cities/australia.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },
+          {
+            "tour_id": 306,
+            "tour_city_name": "Sydney",
+            "tour_slug": "Sydney-eye",
+            "tour_city_title":"Sydney: Westminster to Greenwich River Thames",
+            "tour_image": "/assets/images/cities/australia.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },
+          
+          {
+            "tour_id": 305,
+            "tour_city_name": "Sydney",
+            "tour_slug": "Sydney-eye",
+            "tour_city_title":"Sydney: Westminster to Greenwich River Thames",
+            "tour_image": "/assets/images/cities/australia.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "city_name": "London",
+        "slug": "london",
+        "image_alt": "london",
+        "image": "/assets/images/london.jpg",
+      "description": "A historic city famous for its iconic landmarks, museums, and multicultural atmosphere.",
+        "popularity": 10,
+        "activities": [
+          "street art & graffiti",
+          "hidden gems",
+          "special foods"
+        ],
+        "similiar_tours": [
+          {
+            "tour_id": 106,
+            "tour_city_name": "London",
+            "tour_slug": "london-museum-tour",
+            "tour_image": "london-museum.jpg",
+            "duration": "5 hours",
+            "options": ["guided"],
+            "transport_facility_availability": "Not Available",
+            "for_whom": ["solo traveler", "family"],
+            "review": {
+              "stars": [4.8, 4.5],
+              "total_reviews": 220
+            },
+            "availability": "Available"
+          }
+        ],
+        "related_city_tours": [
+          {
+            "tour_id": 202,
+            "tour_city_name": "London",
+            "tour_city_title":"Alaska: Westminster to Greenwich River Thames",
+            "tour_slug": "london-eye",
+            "tour_image": "/assets/images/london.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },
+          {
+            "tour_id": 203,
+            "tour_city_name": "London",
+            "tour_city_title":"Alaska: Westminster to Greenwich River Thames",
+            "tour_slug": "london-eye",
+            "tour_image": "/assets/images/london.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },{
+            "tour_id": 204,
+            "tour_city_name": "London",
+            "tour_city_title":"Alaska: Westminster to Greenwich River Thames",
+
+            "tour_slug": "london-eye",
+            "tour_image": "/assets/images/london.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },{
+            "tour_id": 205,
+            "tour_city_name": "London",
+            "tour_city_title":"Alaska: Westminster to Greenwich River Thames",
+            "tour_slug": "london-eye",
+            "tour_image": "/assets/images/london.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          }
+
+        ]
+      },
+      {
+        "id": 6,
+        "city_name": "Dubai",
+        "slug": "dubai",
+        "image_alt": "dubai-image.jpg",
+        "popularity": 9,
+        "image": "/assets/images/dubai.jpg",
+        "description": "A modern marvel in the desert, known for luxury shopping, futuristic architecture, and a vibrant nightlife scene.",
+        
+        "activities": [
+          "adrenaline",
+          "special foods",
+          "street art & graffiti",
+          "nature"
+        ],
+        "similiar_tours": [
+          {
+            "tour_id": 107,
+            "tour_city_name": "Dubai",
+            "tour_slug": "dubai-desert-safari",
+            "tour_image": "dubai-desert-safari.jpg",
+            "duration": "6 hours",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "group"],
+            "review": {
+              "stars": [4.7, 4.9],
+              "total_reviews": 540
+            },
+            "availability": "Available"
+          }
+        ],
+        "related_city_tours": [
+          {
+            "tour_id": 202,
+            "tour_city_name": "Dubai",
+            "tour_city_title":"Dubai: Westminster to Greenwich River Thames",
+            "tour_slug": "dubai-eye",
+            "tour_image":  "/assets/images/dubai.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },
+          {
+            "tour_id": 203,
+            
+            "tour_city_name": "Dubai",
+            "tour_city_title":"Dubai: Westminster to Greenwich River Thames",
+            "tour_slug": "dubai-eye",
+            "tour_image":  "/assets/images/dubai.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },
+          
+          
+          {
+            "tour_id": 204,
+            "tour_city_name": "Dubai",
+            "tour_city_title":"Dubai: Westminster to Greenwich River Thames",
+            "tour_slug": "dubai-eye",
+            "tour_image":  "/assets/images/dubai.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },{
+            "tour_id": 205,
+            "tour_city_name": "Dubai",
+            "tour_city_title":"Dubai: Westminster to Greenwich River Thames",
+            "tour_slug": "dubai-eye",
+            "tour_image":  "/assets/images/dubai.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          }
+
+        ]
+      },
+      {
+        "id": 7,
+        "city_name": "Tokyo",
+        "slug": "tokyo",
+        "image_alt": "tokyo-image.jpg",
+        "popularity": 9,
+        "image": "/assets/images/tokyo.jpg",
+        "description": "A bustling metropolis blending traditional culture and futuristic technology.",
+        
+        "activities": [
+          "street art & graffiti",
+          "special foods",
+          "hidden gems",
+          "adrenaline"
+        ],
+        "similiar_tours": [
+          {
+            "tour_id": 108,
+            "tour_city_name": "Tokyo",
+            "tour_slug": "tokyo-culinary-tour",
+            "tour_image":"/assets/images/tokyo.jpg",
+            "duration": "4 hours",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["solo traveler", "family"],
+            "review": {
+              "stars": [5, 4.7],
+              "total_reviews": 410
+            },
+            "availability": "Available"
+          }
+        ],
+        "related_city_tours": [
+          {
+            "tour_id": 202,
+            "tour_city_name": "Tokyo",
+            "tour_city_title":"Tokyo: Westminster to Greenwich River Thames",
+            "tour_slug": "Tokyo-eye",
+            "tour_image": "/assets/images/tokyo.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },
+          {
+            "tour_id": 201,
+            "tour_city_name": "Tokyo",
+            "tour_city_title":"Tokyo: Westminster to Greenwich River Thames",
+            "tour_slug": "Tokyo-eye",
+            "tour_image": "/assets/images/tokyo.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },
+          
+          {
+            "tour_id": 204,
+            "tour_city_name": "Tokyo",
+            "tour_city_title":"Tokyo: Westminster to Greenwich River Thames",
+            "tour_slug": "Tokyo-eye",
+            "tour_image": "/assets/images/tokyo.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },
+          
+        {
+            "tour_id": 205,
+            "tour_city_name": "Tokyo",
+            "tour_city_title":"Tokyo: Westminster to Greenwich River Thames",
+            "tour_slug": "Tokyo-eye",
+            "tour_image": "/assets/images/tokyo.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          }
+
+        ]
+      },
+      {
+        "id": 8,
+        "city_name": "Delhi",
+        "slug": "delhi",
+        "image_alt": "delhi-image.jpg",
+        "image": "/assets/images/delhi.jpg",
+        "description": "A historic city with rich culture, offering an eclectic mix of modernity and tradition.",
+        
+        "popularity": 8,
+        "activities": [
+          "special foods",
+          "nature",
+          "adrenaline",
+          "street art & graffiti"
+        ],
+        "similiar_tours": [
+          {
+            "tour_id": 109,
+            "tour_city_name": "Delhi",
+            "tour_slug": "delhi-food-tour",
+            "tour_image": "delhi-food-tour.jpg",
+            "duration": "3 hours",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["solo traveler", "family"],
+            "review": {
+              "stars": [4.6, 4.5],
+              "total_reviews": 320
+            },
+            "availability": "Available"
+          }
+        ],
+        "related_city_tours": [
+          {
+            "tour_id": 202,
+            "tour_city_name": "Delhi",
+            "tour_city_title":"Delhi: Westminster to Greenwich River Thames",
+            "tour_slug": "Delhi-eye",
+            "tour_image":"/assets/images/delhi.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },
+          {
+            "tour_id": 203,
+            "tour_city_name": "Delhi",
+            "tour_city_title":"Delhi: Westminster to Greenwich River Thames",
+            "tour_slug": "Delhi-eye",
+            "tour_image":"/assets/images/delhi.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },{
+            "tour_id": 204,
+            "tour_city_name": "Delhi",
+            "tour_city_title":"Delhi: Westminster to Greenwich River Thames",
+
+            "tour_slug": "Delhi-eye",
+            "tour_image":"/assets/images/delhi.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          },{
+            "tour_id": 205,
+            "tour_city_name": "Delhi",
+            "tour_city_title":"Delhi: Westminster to Greenwich River Thames",
+
+            "tour_slug": "Delhi-eye",
+            "tour_image":"/assets/images/delhi.jpg",
+            "duration": "1 hour",
+            "options": ["guided"],
+            "transport_facility_availability": "Available",
+            "for_whom": ["family", "solo traveler"],
+            "review": {
+              "stars": [4.7, 4.8],
+              "total_reviews": 412
+            },
+            "availability": "Available"
+          }
+
+        ]
+      }
+    ],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "tours":[
+        {
+            "id": 101,
+            "name": "New York Central Park Tour",
+            "slug": "new-york-central-park-tour",
+            "image": "new-york-central-park.jpg",
+            "duration": "3 hours",
+            "transport_availability": "Available",
+            "price": 35.50,
+            "date": "2025-03-15",
+            "availability": "Available",
+            "gallery": [
+              {
+                "id": 1,
+                "image": "new-york-central-park-1.jpg",
+                "image_name": "Central Park View 1",
+                "image_slug": "central-park-view-1"
+              },
+              {
+                "id": 2,
+                "image": "new-york-central-park-2.jpg",
+                "image_name": "Central Park View 2",
+                "image_slug": "central-park-view-2"
+              }
+            ],
+            "recommended": 9.5,
+            "popularity": 10,
+            "benefits": {
+              "free_cancellation": {
+                "title": "Free Cancellation",
+                "description": "Cancel up to 24 hours in advance for a full refund."
+              },
+              "mobile_ticketing": {
+                "title": "Mobile Ticketing",
+                "description": "Easily show your tickets from your mobile device."
+              },
+              "instant_confirmation": {
+                "title": "Instant Confirmation",
+                "description": "No waiting for confirmation – instant booking confirmation."
+              },
+              "health_precautions": {
+                "title": "Health Precautions",
+                "description": "Special health and safety measures apply. Learn more."
+              }
+            },
+            "durations": {
+              "hour": "3 hours",
+              "days": "0"
+            },
+            "live_tour_guide": {
+              "languages": ["English", "Spanish"]
+            },
+            "descriptions": {
+              "title": "Discover the Beauty of Central Park",
+              "text": "Experience the iconic Central Park of New York City, with scenic views, historical landmarks, and lush green spaces. This tour is perfect for nature lovers and anyone wanting to explore the heart of NYC.",
+              "activities": [
+                "Walk through famous spots like Bethesda Terrace and Bow Bridge.",
+                "Learn about the history of Central Park.",
+                "Enjoy the natural beauty and serenity of the park."
+              ],
+              "what_is_included": {
+                "title": "What's Included",
+                "list": [
+                  "Guided walking tour",
+                  "Access to all Central Park locations",
+                  "Photo opportunities at popular spots"
+                ]
+              },
+              "what_is_not_included": {
+                "title": "What's Not Included",
+                "list": [
+                  "Food and drinks",
+                  "Personal expenses"
+                ]
+              },
+              "safety_title": "Safety and Health Measures",
+              "health_precautions_subtitle": "Health & Safety Measures Apply",
+              "health_precautions_list": [
+                "Face masks required for travelers in public areas.",
+                "Hand sanitizer available to travelers and staff."
+              ]
+            },
+            "details_title": "Tour Details",
+            "details": {
+              "languages": ["English", "Spanish"],
+              "duration": "3 hours",
+              "max_people": 10
+            },
+            "address": {
+              "location_details": "Meet behind the Bethesda Terrace, look for the Central Park sign.",
+              "google_maps_link": "https://goo.gl/maps/examplelink",
+              "latitude": "40.785091",
+              "longitude": "-73.968285",
+              "name": "Central Park, New York",
+              "country": "USA"
+            },
+            "inclusions": [
+              "Guide",
+              "Entry fees to Central Park locations"
+            ],
+            "exclusions": [
+              "Food and drinks",
+              "Hotel pickup and drop-off"
+            ],
+            "reviews": {
+              "overall_review": {
+                "stars": 4.8,
+                "value_for_money": 90,
+                "guide": 95,
+                "safety": 90,
+                "transport": 85,
+                "review_points": [4.5, 5, 4.7, 5]
+              },
+              "traveller_reviews": [
+                {
+                  "name": "John Doe",
+                  "id": 1,
+                  "slug": "john-doe-review",
+                  "image": "john-doe.jpg",
+                  "review_date": "2025-03-10",
+                  "traveller_type": "solo",
+                  "review_heading": "Amazing Experience!",
+                  "review_description": "This was the best part of my trip to New York! I loved every second of the tour, and the guide was fantastic. Highly recommend!",
+                  "stars": 5,
+                  "review_number": 1,
+                  "verified_traveller": true
+                },
+                {
+                  "name": "Emily Smith",
+                  "id": 2,
+                  "slug": "emily-smith-review",
+                  "image": "emily-smith.jpg",
+                  "review_date": "2025-03-12",
+                  "traveller_type": "group",
+                  "review_heading": "Great for Families",
+                  "review_description": "We did this tour as a family, and it was perfect. Lots of interesting facts about Central Park, and we had a lot of fun.",
+                  "stars": 4.7,
+                  "review_number": 2,
+                  "verified_traveller": true
+                }
+              ]
+            },
+            "details_summary": {
+              "number_of_days": 0,
+              "tour_duration": "3 hours",
+              "languages": ["English", "Spanish"],
+              "max_people": 10
+            },
+            "related_tours": [
+              {
+                "tour_id": 102,
+                "tour_city_name": "New York",
+                "tour_slug": "new-york-architecture-tour",
+                "tour_image": "new-york-architecture.jpg",
+                "duration": "4 hours",
+                "options": ["guided"],
+                "transport_facility_availability": "Not Available",
+                "for_whom": ["solo traveler", "group"],
+                "review": {
+                  "stars": [4.6, 4.7],
+                  "total_reviews": 330
+                },
+                "availability": "Available"
+              }
+            ],
+            "related_city_tours": [
+              {
+                "tour_id": 201,
+                "tour_city_name": "London",
+                "tour_slug": "london-eye",
+                "tour_image": "london-eye.jpg",
+                "duration": "1 hour",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["family", "solo traveler"],
+                "review": {
+                  "stars": [4.7, 4.8],
+                  "total_reviews": 412
+                },
+                "availability": "Available"
+              }
+            ]
+          },
+          {
+            "id": 103,
+            "name": "California Coastal Tour",
+            "slug": "california-coastal-tour",
+            "image": "california-coastal-tour.jpg",
+            "duration": "7 days",
+            "transport_availability": "Available",
+            "price": 499.99,
+            "date": "2025-05-01",
+            "availability": "Available",
+            "gallery": [
+              {
+                "id": 1,
+                "image": "california-coastal-1.jpg",
+                "image_name": "California Coast 1",
+                "image_slug": "california-coast-1"
+              },
+              {
+                "id": 2,
+                "image": "california-coastal-2.jpg",
+                "image_name": "California Coast 2",
+                "image_slug": "california-coast-2"
+              }
+            ],
+            "recommended": 9.2,
+            "popularity": 9,
+            "benefits": {
+              "free_cancellation": {
+                "title": "Free Cancellation",
+                "description": "Cancel up to 48 hours in advance for a full refund."
+              },
+              "mobile_ticketing": {
+                "title": "Mobile Ticketing",
+                "description": "Show your tickets directly from your mobile device."
+              },
+              "instant_confirmation": {
+                "title": "Instant Confirmation",
+                "description": "Instant booking confirmation with no waiting."
+              },
+              "health_precautions": {
+                "title": "Health Precautions",
+                "description": "Health measures are in place, including sanitized transport."
+              }
+            },
+            "durations": {
+              "hour": "168 hours",
+              "days": "7"
+            },
+            "live_tour_guide": {
+              "languages": ["English", "Spanish"]
+            },
+            "descriptions": {
+              "title": "Experience the Beauty of the California Coast",
+              "text": "Travel along the iconic California coast, from Los Angeles to San Francisco. Explore scenic coastal towns, beautiful beaches, and top-notch local eateries.",
+              "activities": [
+                "Visit iconic spots like Santa Monica, Big Sur, and San Francisco.",
+                "Enjoy scenic drives along the Pacific Coast Highway.",
+                "Relax at famous California beaches."
+              ],
+              "what_is_included": {
+                "title": "What's Included",
+                "list": [
+                  "7-day guided tour",
+                  "All accommodations",
+                  "Daily breakfast"
+                ]
+              },
+              "what_is_not_included": {
+                "title": "What's Not Included",
+                "list": [
+                  "Lunch and dinner",
+                  "Personal expenses"
+                ]
+              },
+              "safety_title": "Safety and Health Measures",
+              "health_precautions_subtitle": "Health & Safety Measures Apply",
+              "health_precautions_list": [
+                "Social distancing on buses and at stops.",
+                "Masks required indoors and on transport."
+              ]
+            },
+            "details_title": "Tour Details",
+            "details": {
+              "languages": ["English", "Spanish"],
+              "duration": "7 days",
+              "max_people": 20
+            },
+            "address": {
+              "location_details": "Tour starts at Los Angeles International Airport.",
+              "google_maps_link": "https://goo.gl/maps/examplelink",
+              "latitude": "34.052235",
+              "longitude": "-118.243683",
+              "name": "Los Angeles, California",
+              "country": "USA"
+            },
+            "inclusions": [
+              "7-day guided tour",
+              "All transportation",
+              "Hotel stays and meals"
+            ],
+            "exclusions": [
+              "Lunch and dinner",
+              "Souvenirs"
+            ],
+            "reviews": {
+              "overall_review": {
+                "stars": 4.9,
+                "value_for_money": 95,
+                "guide": 98,
+                "safety": 94,
+                "transport": 96,
+                "review_points": [4.8, 5, 4.9, 5]
+              },
+              "traveller_reviews": [
+                {
+                  "name": "Chris Martin",
+                  "id": 3,
+                  "slug": "chris-martin-review",
+                  "image": "chris-martin.jpg",
+                  "review_date": "2025-04-15",
+                  "traveller_type": "group",
+                  "review_heading": "Amazing Coastal Experience",
+                  "review_description": "This tour was an amazing way to see the California coast. From the stunning views to the fantastic local guides, it was a trip of a lifetime.",
+                  "stars": 5,
+                  "review_number": 1,
+                  "verified_traveller": true
+                }
+              ]
+            },
+            "details_summary": {
+              "number_of_days": 7,
+              "tour_duration": "7 days",
+              "languages": ["English", "Spanish"],
+              "max_people": 20
+            },
+            "related_tours": [
+              {
+                "tour_id": 104,
+                "tour_city_name": "California",
+                "tour_slug": "california-national-park-tour",
+                "tour_image": "california-national-park.jpg",
+                "duration": "5 days",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["solo traveler", "family"],
+                "review": {
+                  "stars": [4.6, 4.7],
+                  "total_reviews": 320
+                },
+                "availability": "Available"
+              }
+            ],
+            "related_city_tours": [
+              {
+                "tour_id": 201,
+                "tour_city_name": "San Francisco",
+                "tour_slug": "san-francisco-city-tour",
+                "tour_image": "san-francisco-city.jpg",
+                "duration": "2 days",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["family", "group"],
+                "review": {
+                  "stars": [4.7, 4.8],
+                  "total_reviews": 280
+                },
+                "availability": "Available"
+              }
+            ]
+          },
+          {
+            "id": 105,
+            "name": "Alaska Wilderness Safari",
+            "slug": "alaska-wilderness-safari",
+            "image": "alaska-wilderness-safari.jpg",
+            "duration": "4 days",
+            "transport_availability": "Available",
+            "price": 750.00,
+            "date": "2025-06-01",
+            "availability": "Available",
+            "gallery": [
+              {
+                "id": 1,
+                "image": "alaska-safari-1.jpg",
+                "image_name": "Alaska Wilderness 1",
+                "image_slug": "alaska-wilderness-1"
+              },
+              {
+                "id": 2,
+                "image": "alaska-safari-2.jpg",
+                "image_name": "Alaska Wilderness 2",
+                "image_slug": "alaska-wilderness-2"
+              }
+            ],
+            "recommended": 9.8,
+            "popularity": 9.5,
+            "benefits": {
+              "free_cancellation": {
+                "title": "Free Cancellation",
+                "description": "Cancel up to 72 hours in advance for a full refund."
+              },
+              "mobile_ticketing": {
+                "title": "Mobile Ticketing",
+                "description": "Easily access your tickets via mobile device."
+              },
+              "instant_confirmation": {
+                "title": "Instant Confirmation",
+                "description": "Instant booking confirmation after payment."
+              },
+              "health_precautions": {
+                "title": "Health Precautions",
+                "description": "Strict health and safety protocols in place."
+              }
+            },
+            "durations": {
+              "hour": "96 hours",
+              "days": "4"
+            },
+            "live_tour_guide": {
+              "languages": ["English"]
+            },
+            "descriptions": {
+              "title": "Explore the Alaskan Wilderness",
+              "text": "Venture deep into Alaska's pristine wilderness with this four-day safari. Encounter wildlife, take a river cruise, and explore dramatic landscapes.",
+              "activities": [
+                "Wildlife watching (bears, moose, eagles)",
+                "Cruise on Denali river",
+                "Hiking in national parks"
+              ],
+              "what_is_included": {
+                "title": "What's Included",
+                "list": [
+                  "4-day guided tour",
+                  "Transportation within Alaska",
+                  "All meals"
+                ]
+              },
+              "what_is_not_included": {
+                "title": "What's Not Included",
+                "list": [
+                  "Flights to Alaska",
+                  "Souvenirs"
+                ]
+              },
+              "safety_title": "Safety and Health Measures",
+              "health_precautions_subtitle": "Health & Safety Measures Apply",
+              "health_precautions_list": [
+                "Masks required in public spaces.",
+                "Regular sanitizing of transport."
+              ]
+            },
+            "details_title": "Tour Details",
+            "details": {
+              "languages": ["English"],
+              "duration": "4 days",
+              "max_people": 12
+            },
+            "address": {
+              "location_details": "Tour starts at Anchorage International Airport.",
+              "google_maps_link": "https://goo.gl/maps/examplelink",
+              "latitude": "61.2181",
+              "longitude": "-149.9003",
+              "name": "Anchorage, Alaska",
+              "country": "USA"
+            },
+            "inclusions": [
+              "4-day guided tour",
+              "Meals and accommodations",
+              "Transport between destinations"
+            ],
+            "exclusions": [
+              "Flights",
+              "Personal souvenirs"
+            ],
+            "reviews": {
+              "overall_review": {
+                "stars": 4.8,
+                "value_for_money": 90,
+                "guide": 96,
+                "safety": 94,
+                "transport": 92,
+                "review_points": [4.5, 5, 4.8, 5]
+              },
+              "traveller_reviews": [
+                {
+                  "name": "Jane Doe",
+                  "id": 4,
+                  "slug": "jane-doe-review",
+                  "image": "jane-doe.jpg",
+                  "review_date": "2025-05-15",
+                  "traveller_type": "family",
+                  "review_heading": "Incredible Alaska Experience!",
+                  "review_description": "A once-in-a-lifetime experience! Our family loved every moment of the safari, and the wildlife encounters were unforgettable.",
+                  "stars": 5,
+                  "review_number": 1,
+                  "verified_traveller": true
+                }
+              ]
+            },
+            "details_summary": {
+              "number_of_days": 4,
+              "tour_duration": "4 days",
+              "languages": ["English"],
+              "max_people": 12
+            },
+            "related_tours": [
+              {
+                "tour_id": 106,
+                "tour_city_name": "Alaska",
+                "tour_slug": "alaska-glacier-tour",
+                "tour_image": "alaska-glacier.jpg",
+                "duration": "5 days",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["solo traveler", "family"],
+                "review": {
+                  "stars": [4.6, 4.8],
+                  "total_reviews": 100
+                },
+                "availability": "Available"
+              }
+            ],
+            "related_city_tours": [
+              {
+                "tour_id": 202,
+                "tour_city_name": "Anchorage",
+                "tour_slug": "anchorage-nature-tour",
+                "tour_image": "anchorage-nature.jpg",
+                "duration": "3 days",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["group", "solo traveler"],
+                "review": {
+                  "stars": [4.7, 4.9],
+                  "total_reviews": 50
+                },
+                "availability": "Available"
+              }
+            ]
+          },
+          {
+            "id": 107,
+            "name": "Sydney Opera House Tour",
+            "slug": "sydney-opera-house-tour",
+            "image": "sydney-opera-house.jpg",
+            "duration": "3 hours",
+            "transport_availability": "Not Available",
+            "price": 45.00,
+            "date": "2025-06-10",
+            "availability": "Available",
+            "gallery": [
+              {
+                "id": 1,
+                "image": "sydney-opera-house-1.jpg",
+                "image_name": "Sydney Opera House 1",
+                "image_slug": "sydney-opera-house-1"
+              },
+              {
+                "id": 2,
+                "image": "sydney-opera-house-2.jpg",
+                "image_name": "Sydney Opera House 2",
+                "image_slug": "sydney-opera-house-2"
+              }
+            ],
+            "recommended": 9.7,
+            "popularity": 10,
+            "benefits": {
+              "free_cancellation": {
+                "title": "Free Cancellation",
+                "description": "Cancel up to 24 hours in advance for a full refund."
+              },
+              "mobile_ticketing": {
+                "title": "Mobile Ticketing",
+                "description": "Show your tickets directly from your mobile device."
+              },
+              "instant_confirmation": {
+                "title": "Instant Confirmation",
+                "description": "Instant booking confirmation with no waiting."
+              },
+              "health_precautions": {
+                "title": "Health Precautions",
+                "description": "Health measures are in place, including sanitized transport."
+              }
+            },
+            "durations": {
+              "hour": "3 hours",
+              "days": "0"
+            },
+            "live_tour_guide": {
+              "languages": ["English"]
+            },
+            "descriptions": {
+              "title": "Visit the Iconic Sydney Opera House",
+              "text": "Join a guided tour of the world-famous Sydney Opera House, a UNESCO World Heritage Site. Explore its stunning architecture and learn about its rich history.",
+              "activities": [
+                "Explore the main concert hall.",
+                "Discover hidden areas not usually open to the public.",
+                "Learn about the Opera House's fascinating history."
+              ],
+              "what_is_included": {
+                "title": "What's Included",
+                "list": [
+                  "Guided tour of Sydney Opera House",
+                  "Access to restricted areas"
+                ]
+              },
+              "what_is_not_included": {
+                "title": "What's Not Included",
+                "list": [
+                  "Food and drinks",
+                  "Transport"
+                ]
+              },
+              "safety_title": "Safety and Health Measures",
+              "health_precautions_subtitle": "Health & Safety Measures Apply",
+              "health_precautions_list": [
+                "Masks required indoors.",
+                "Sanitizer stations available throughout the venue."
+              ]
+            },
+            "details_title": "Tour Details",
+            "details": {
+              "languages": ["English"],
+              "duration": "3 hours",
+              "max_people": 30
+            },
+            "address": {
+              "location_details": "Tour starts at the Sydney Opera House, Bennelong Point, Sydney.",
+              "google_maps_link": "https://goo.gl/maps/examplelink",
+              "latitude": "-33.8568",
+              "longitude": "151.2153",
+              "name": "Sydney Opera House",
+              "country": "Australia"
+            },
+            "inclusions": [
+              "Guided tour of the Opera House",
+              "Entry to restricted areas"
+            ],
+            "exclusions": [
+              "Transport to the Opera House",
+              "Food and beverages"
+            ],
+            "reviews": {
+              "overall_review": {
+                "stars": 4.9,
+                "value_for_money": 95,
+                "guide": 97,
+                "safety": 98,
+                "transport": 90,
+                "review_points": [5, 4.8, 5]
+              },
+              "traveller_reviews": [
+                {
+                  "name": "Emily Johnson",
+                  "id": 5,
+                  "slug": "emily-johnson-review",
+                  "image": "emily-johnson.jpg",
+                  "review_date": "2025-05-20",
+                  "traveller_type": "solo",
+                  "review_heading": "A Magical Experience",
+                  "review_description": "The Sydney Opera House tour was beyond amazing! The architecture and the backstage access were incredible. Highly recommend!",
+                  "stars": 5,
+                  "review_number": 1,
+                  "verified_traveller": true
+                }
+              ]
+            },
+            "details_summary": {
+              "number_of_days": 1,
+              "tour_duration": "3 hours",
+              "languages": ["English"],
+              "max_people": 30
+            },
+            "related_tours": [
+              {
+                "tour_id": 108,
+                "tour_city_name": "Sydney",
+                "tour_slug": "sydney-harbour-cruise",
+                "tour_image": "sydney-harbour-cruise.jpg",
+                "duration": "2 hours",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["family", "solo traveler"],
+                "review": {
+                  "stars": [4.8, 4.9],
+                  "total_reviews": 320
+                },
+                "availability": "Available"
+              }
+            ],
+            "related_city_tours": [
+              {
+                "tour_id": 203,
+                "tour_city_name": "Sydney",
+                "tour_slug": "sydney-city-tour",
+                "tour_image": "sydney-city-tour.jpg",
+                "duration": "1 day",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["solo traveler", "group"],
+                "review": {
+                  "stars": [4.7, 4.8],
+                  "total_reviews": 200
+                },
+                "availability": "Available"
+              }
+            ]
+          },
+          {
+            "id": 109,
+            "name": "London Historic Tour",
+            "slug": "london-historic-tour",
+            "image": "london-historic-tour.jpg",
+            "duration": "5 hours",
+            "transport_availability": "Not Available",
+            "price": 60.00,
+            "date": "2025-07-01",
+            "availability": "Available",
+            "gallery": [
+              {
+                "id": 1,
+                "image": "london-historic-1.jpg",
+                "image_name": "London History 1",
+                "image_slug": "london-history-1"
+              },
+              {
+                "id": 2,
+                "image": "london-historic-2.jpg",
+                "image_name": "London History 2",
+                "image_slug": "london-history-2"
+              }
+            ],
+            "recommended": 9.4,
+            "popularity": 9.2,
+            "benefits": {
+              "free_cancellation": {
+                "title": "Free Cancellation",
+                "description": "Cancel up to 48 hours before the tour for a full refund."
+              },
+              "mobile_ticketing": {
+                "title": "Mobile Ticketing",
+                "description": "Easily access your tickets via mobile device."
+              },
+              "instant_confirmation": {
+                "title": "Instant Confirmation",
+                "description": "Instant booking confirmation with no waiting."
+              },
+              "health_precautions": {
+                "title": "Health Precautions",
+                "description": "Health measures are in place for your safety."
+              }
+            },
+            "durations": {
+              "hour": "5 hours",
+              "days": "0"
+            },
+            "live_tour_guide": {
+              "languages": ["English"]
+            },
+            "descriptions": {
+              "title": "Explore London's Historic Landmarks",
+              "text": "Join a historical walking tour of London and explore famous landmarks like the Tower of London, Westminster Abbey, and more.",
+              "activities": [
+                "Visit the Tower of London and see the Crown Jewels.",
+                "Walk through the streets of Westminster.",
+                "See iconic landmarks like Big Ben and Buckingham Palace."
+              ],
+              "what_is_included": {
+                "title": "What's Included",
+                "list": [
+                  "Guided walking tour",
+                  "Entry to key historical sites"
+                ]
+              },
+              "what_is_not_included": {
+                "title": "What's Not Included",
+                "list": [
+                  "Meals",
+                  "Transport"
+                ]
+              },
+              "safety_title": "Health and Safety",
+              "health_precautions_subtitle": "Health & Safety Measures Apply",
+              "health_precautions_list": [
+                "Masks required indoors.",
+                "Social distancing maintained during the tour."
+              ]
+            },
+            "details_title": "Tour Details",
+            "details": {
+              "languages": ["English"],
+              "duration": "5 hours",
+              "max_people": 20
+            },
+            "address": {
+              "location_details": "Tour starts at Westminster Station.",
+              "google_maps_link": "https://goo.gl/maps/examplelink",
+              "latitude": "51.4995",
+              "longitude": "-0.1248",
+              "name": "Westminster, London",
+              "country": "United Kingdom"
+            },
+            "inclusions": [
+              "Guided walking tour",
+              "Entrance fees to historic sites"
+            ],
+            "exclusions": [
+              "Transport to the starting point",
+              "Food and beverages"
+            ],
+            "reviews": {
+              "overall_review": {
+                "stars": 4.7,
+                "value_for_money": 92,
+                "guide": 95,
+                "safety": 90,
+                "transport": 87,
+                "review_points": [4.6, 4.8, 5]
+              },
+              "traveller_reviews": [
+                {
+                  "name": "Tom Evans",
+                  "id": 6,
+                  "slug": "tom-evans-review",
+                  "image": "tom-evans.jpg",
+                  "review_date": "2025-06-25",
+                  "traveller_type": "solo",
+                  "review_heading": "Great Historical Insights",
+                  "review_description": "The guide was knowledgeable, and the historical insights were amazing. A must-do for history lovers!",
+                  "stars": 5,
+                  "review_number": 1,
+                  "verified_traveller": true
+                }
+              ]
+            },
+            "details_summary": {
+              "number_of_days": 1,
+              "tour_duration": "5 hours",
+              "languages": ["English"],
+              "max_people": 20
+            },
+            "related_tours": [
+              {
+                "tour_id": 110,
+                "tour_city_name": "London",
+                "tour_slug": "london-pub-tour",
+                "tour_image": "london-pub-tour.jpg",
+                "duration": "3 hours",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["solo traveler", "group"],
+                "review": {
+                  "stars": [4.5, 4.7],
+                  "total_reviews": 150
+                },
+                "availability": "Available"
+              }
+            ],
+            "related_city_tours": [
+              {
+                "tour_id": 204,
+                "tour_city_name": "London",
+                "tour_slug": "london-attractions-tour",
+                "tour_image": "london-attractions.jpg",
+                "duration": "1 day",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["family", "solo traveler"],
+                "review": {
+                  "stars": [4.6, 4.9],
+                  "total_reviews": 250
+                },
+                "availability": "Available"
+              }
+            ]
+          },
+          {
+            "id": 111,
+            "name": "Dubai Desert Safari",
+            "slug": "dubai-desert-safari",
+            "image": "dubai-desert-safari.jpg",
+            "duration": "6 hours",
+            "transport_availability": "Available",
+            "price": 120.00,
+            "date": "2025-07-15",
+            "availability": "Available",
+            "gallery": [
+              {
+                "id": 1,
+                "image": "dubai-desert-1.jpg",
+                "image_name": "Dubai Desert 1",
+                "image_slug": "dubai-desert-1"
+              },
+              {
+                "id": 2,
+                "image": "dubai-desert-2.jpg",
+                "image_name": "Dubai Desert 2",
+                "image_slug": "dubai-desert-2"
+              }
+            ],
+            "recommended": 9.6,
+            "popularity": 9.3,
+            "benefits": {
+              "free_cancellation": {
+                "title": "Free Cancellation",
+                "description": "Cancel up to 24 hours before the safari for a full refund."
+              },
+              "mobile_ticketing": {
+                "title": "Mobile Ticketing",
+                "description": "Access your safari tickets via mobile."
+              },
+              "instant_confirmation": {
+                "title": "Instant Confirmation",
+                "description": "Instant confirmation on booking."
+              },
+              "health_precautions": {
+                "title": "Health Precautions",
+                "description": "Health measures in place including sanitization."
+              }
+            },
+            "durations": {
+              "hour": "6 hours",
+              "days": "0"
+            },
+            "live_tour_guide": {
+              "languages": ["English"]
+            },
+            "descriptions": {
+              "title": "Experience the Thrills of the Dubai Desert",
+              "text": "Embark on a thrilling desert safari and enjoy dune bashing, camel rides, and an authentic Arabian dinner under the stars.",
+              "activities": [
+                "Dune bashing",
+                "Camel ride",
+                "BBQ dinner with entertainment"
+              ],
+              "what_is_included": {
+                "title": "What's Included",
+                "list": [
+                  "6-hour desert safari",
+                  "Transportation to and from the desert",
+                  "Camel ride and dune bashing"
+                ]
+              },
+              "what_is_not_included": {
+                "title": "What's Not Included",
+                "list": [
+                  "Alcoholic drinks",
+                  "Souvenirs"
+                ]
+              },
+              "safety_title": "Safety and Health Measures",
+              "health_precautions_subtitle": "Health & Safety Measures Apply",
+              "health_precautions_list": [
+                "Masks required when in shared spaces.",
+                "Vehicles sanitized before and after each trip."
+              ]
+            },
+            "details_title": "Tour Details",
+            "details": {
+              "languages": ["English"],
+              "duration": "6 hours",
+              "max_people": 30
+            },
+            "address": {
+              "location_details": "Pickup from Dubai city center hotels.",
+              "google_maps_link": "https://goo.gl/maps/examplelink",
+              "latitude": "25.276987",
+              "longitude": "55.296249",
+              "name": "Dubai Desert",
+              "country": "UAE"
+            },
+            "inclusions": [
+              "Desert safari",
+              "BBQ dinner",
+              "Camel ride"
+            ],
+            "exclusions": [
+              "Alcoholic drinks",
+              "Personal souvenirs"
+            ],
+            "reviews": {
+              "overall_review": {
+                "stars": 4.8,
+                "value_for_money": 94,
+                "guide": 96,
+                "safety": 92,
+                "transport": 94,
+                "review_points": [4.9, 5, 4.7, 4.8]
+              },
+              "traveller_reviews": [
+                {
+                  "name": "Sarah Lee",
+                  "id": 7,
+                  "slug": "sarah-lee-review",
+                  "image": "sarah-lee.jpg",
+                  "review_date": "2025-07-05",
+                  "traveller_type": "group",
+                  "review_heading": "An Incredible Adventure",
+                  "review_description": "The Dubai Desert Safari was exhilarating! The dune bashing was thrilling, and the BBQ dinner was superb. A must-do experience in Dubai.",
+                  "stars": 5,
+                  "review_number": 1,
+                  "verified_traveller": true
+                }
+              ]
+            },
+            "details_summary": {
+              "number_of_days": 1,
+              "tour_duration": "6 hours",
+              "languages": ["English"],
+              "max_people": 30
+            },
+            "related_tours": [
+              {
+                "tour_id": 112,
+                "tour_city_name": "Dubai",
+                "tour_slug": "dubai-city-tour",
+                "tour_image": "dubai-city-tour.jpg",
+                "duration": "1 day",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["family", "solo traveler"],
+                "review": {
+                  "stars": [4.7, 4.8],
+                  "total_reviews": 180
+                },
+                "availability": "Available"
+              }
+            ],
+            "related_city_tours": [
+              {
+                "tour_id": 205,
+                "tour_city_name": "Dubai",
+                "tour_slug": "dubai-city-attractions-tour",
+                "tour_image": "dubai-city-attractions.jpg",
+                "duration": "2 days",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["solo traveler", "family"],
+                "review": {
+                  "stars": [4.7, 4.9],
+                  "total_reviews": 210
+                },
+                "availability": "Available"
+              }
+            ]
+          },
+          {
+            "id": 113,
+            "name": "Tokyo Cultural Experience Tour",
+            "slug": "tokyo-cultural-experience-tour",
+            "image": "tokyo-cultural-experience.jpg",
+            "duration": "4 hours",
+            "transport_availability": "Available",
+            "price": 75.00,
+            "date": "2025-08-05",
+            "availability": "Available",
+            "gallery": [
+              {
+                "id": 1,
+                "image": "tokyo-cultural-1.jpg",
+                "image_name": "Tokyo Cultural 1",
+                "image_slug": "tokyo-cultural-1"
+              },
+              {
+                "id": 2,
+                "image": "tokyo-cultural-2.jpg",
+                "image_name": "Tokyo Cultural 2",
+                "image_slug": "tokyo-cultural-2"
+              }
+            ],
+            "recommended": 9.5,
+            "popularity": 9.8,
+            "benefits": {
+              "free_cancellation": {
+                "title": "Free Cancellation",
+                "description": "Cancel up to 48 hours in advance for a full refund."
+              },
+              "mobile_ticketing": {
+                "title": "Mobile Ticketing",
+                "description": "Access tickets directly on your phone."
+              },
+              "instant_confirmation": {
+                "title": "Instant Confirmation",
+                "description": "Instant confirmation with no waiting."
+              },
+              "health_precautions": {
+                "title": "Health Precautions",
+                "description": "Strict health protocols in place."
+              }
+            },
+            "durations": {
+              "hour": "4 hours",
+              "days": "0"
+            },
+            "live_tour_guide": {
+              "languages": ["English", "Japanese"]
+            },
+            "descriptions": {
+              "title": "Explore Tokyo's Cultural Heritage",
+              "text": "Join a guided tour of Tokyo's cultural landmarks, including temples, gardens, and markets. Get an insight into the rich history of the city.",
+              "activities": [
+                "Visit the Meiji Shrine.",
+                "Explore the bustling Asakusa Temple area.",
+                "Wander through the traditional Japanese gardens."
+              ],
+              "what_is_included": {
+                "title": "What's Included",
+                "list": [
+                  "Guided tour of Tokyo's cultural sites",
+                  "Entry fees to all attractions"
+                ]
+              },
+              "what_is_not_included": {
+                "title": "What's Not Included",
+                "list": [
+                  "Meals",
+                  "Transport"
+                ]
+              },
+              "safety_title": "Safety and Health",
+              "health_precautions_subtitle": "Health & Safety Measures Apply",
+              "health_precautions_list": [
+                "Masks required in indoor locations.",
+                "Social distancing measures in place."
+              ]
+            },
+            "details_title": "Tour Details",
+            "details": {
+              "languages": ["English", "Japanese"],
+              "duration": "4 hours",
+              "max_people": 25
+            },
+            "address": {
+              "location_details": "Tour starts at Asakusa Station, Tokyo.",
+              "google_maps_link": "https://goo.gl/maps/examplelink",
+              "latitude": "35.7117",
+              "longitude": "139.7967",
+              "name": "Asakusa, Tokyo",
+              "country": "Japan"
+            },
+            "inclusions": [
+              "Guided cultural tour",
+              "Entry to all attractions"
+            ],
+            "exclusions": [
+              "Meals",
+              "Transport"
+            ],
+            "reviews": {
+              "overall_review": {
+                "stars": 4.9,
+                "value_for_money": 95,
+                "guide": 98,
+                "safety": 92,
+                "transport": 89,
+                "review_points": [4.9, 5, 4.8]
+              },
+              "traveller_reviews": [
+                {
+                  "name": "Anna Williams",
+                  "id": 8,
+                  "slug": "anna-williams-review",
+                  "image": "anna-williams.jpg",
+                  "review_date": "2025-07-15",
+                  "traveller_type": "group",
+                  "review_heading": "Amazing Cultural Experience",
+                  "review_description": "The Tokyo Cultural Tour was incredible. The guide was so knowledgeable, and I learned so much about Japanese culture!",
+                  "stars": 5,
+                  "review_number": 1,
+                  "verified_traveller": true
+                }
+              ]
+            },
+            "details_summary": {
+              "number_of_days": 1,
+              "tour_duration": "4 hours",
+              "languages": ["English", "Japanese"],
+              "max_people": 25
+            },
+            "related_tours": [
+              {
+                "tour_id": 114,
+                "tour_city_name": "Tokyo",
+                "tour_slug": "tokyo-modern-architecture-tour",
+                "tour_image": "tokyo-architecture.jpg",
+                "duration": "2 hours",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["solo traveler", "group"],
+                "review": {
+                  "stars": [4.7, 4.9],
+                  "total_reviews": 150
+                },
+                "availability": "Available"
+              }
+            ],
+            "related_city_tours": [
+              {
+                "tour_id": 206,
+                "tour_city_name": "Tokyo",
+                "tour_slug": "tokyo-skyline-tour",
+                "tour_image": "tokyo-skyline.jpg",
+                "duration": "1 day",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["family", "solo traveler"],
+                "review": {
+                  "stars": [4.6, 4.8],
+                  "total_reviews": 200
+                },
+                "availability": "Available"
+              }
+            ]
+          },
+          {
+            "id": 115,
+            "name": "California Wine Country Tour",
+            "slug": "california-wine-country-tour",
+            "image": "california-wine-country.jpg",
+            "duration": "8 hours",
+            "transport_availability": "Available",
+            "price": 150.00,
+            "date": "2025-08-15",
+            "availability": "Available",
+            "gallery": [
+              {
+                "id": 1,
+                "image": "california-wine-1.jpg",
+                "image_name": "California Wine 1",
+                "image_slug": "california-wine-1"
+              },
+              {
+                "id": 2,
+                "image": "california-wine-2.jpg",
+                "image_name": "California Wine 2",
+                "image_slug": "california-wine-2"
+              }
+            ],
+            "recommended": 9.8,
+            "popularity": 9.6,
+            "benefits": {
+              "free_cancellation": {
+                "title": "Free Cancellation",
+                "description": "Cancel up to 24 hours before the tour for a full refund."
+              },
+              "mobile_ticketing": {
+                "title": "Mobile Ticketing",
+                "description": "Access your tickets on your mobile."
+              },
+              "instant_confirmation": {
+                "title": "Instant Confirmation",
+                "description": "Instant confirmation for your booking."
+              },
+              "health_precautions": {
+                "title": "Health Precautions",
+                "description": "Health protocols are in place for your safety."
+              }
+            },
+            "durations": {
+              "hour": "8 hours",
+              "days": "0"
+            },
+            "live_tour_guide": {
+              "languages": ["English"]
+            },
+            "descriptions": {
+              "title": "Explore California's Wine Country",
+              "text": "Join a tour through California's picturesque Wine Country. Visit top vineyards and enjoy wine tastings.",
+              "activities": [
+                "Visit renowned vineyards",
+                "Taste world-class wines",
+                "Tour through scenic wine country landscapes"
+              ],
+              "what_is_included": {
+                "title": "What's Included",
+                "list": [
+                  "Transportation",
+                  "Wine tastings at 3 vineyards",
+                  "Guided vineyard tour"
+                ]
+              },
+              "what_is_not_included": {
+                "title": "What's Not Included",
+                "list": [
+                  "Meals",
+                  "Additional drinks"
+                ]
+              },
+              "safety_title": "Health and Safety",
+              "health_precautions_subtitle": "Health & Safety Measures Apply",
+              "health_precautions_list": [
+                "Masks required in indoor locations.",
+                "Vehicles sanitized regularly."
+              ]
+            },
+            "details_title": "Tour Details",
+            "details": {
+              "languages": ["English"],
+              "duration": "8 hours",
+              "max_people": 12
+            },
+            "address": {
+              "location_details": "Pickup from Napa Valley, California.",
+              "google_maps_link": "https://goo.gl/maps/examplelink",
+              "latitude": "38.2975",
+              "longitude": "-122.2869",
+              "name": "Napa Valley",
+              "country": "USA"
+            },
+            "inclusions": [
+              "Transportation",
+              "Wine tastings",
+              "Vineyard tour"
+            ],
+            "exclusions": [
+              "Meals",
+              "Extra drinks"
+            ],
+            "reviews": {
+              "overall_review": {
+                "stars": 4.9,
+                "value_for_money": 97,
+                "guide": 95,
+                "safety": 94,
+                "transport": 92,
+                "review_points": [4.8, 5, 5]
+              },
+              "traveller_reviews": [
+                {
+                  "name": "James Brown",
+                  "id": 9,
+                  "slug": "james-brown-review",
+                  "image": "james-brown.jpg",
+                  "review_date": "2025-07-20",
+                  "traveller_type": "group",
+                  "review_heading": "A Wine Lover's Dream",
+                  "review_description": "The tour was exceptional! We visited some of the best wineries in Napa, and the wines were fantastic. Highly recommend this experience.",
+                  "stars": 5,
+                  "review_number": 1,
+                  "verified_traveller": true
+                },
+                {
+                    "name": "James Brown",
+                    "id": 9,
+                    "slug": "james-brown-review",
+                    "image": "james-brown.jpg",
+                    "review_date": "2025-07-20",
+                    "traveller_type": "group",
+                    "review_heading": "A Wine Lover's Dream",
+                    "review_description": "The tour was exceptional! We visited some of the best wineries in Napa, and the wines were fantastic. Highly recommend this experience.",
+                    "stars": 5,
+                    "review_number": 1,
+                    "verified_traveller": true
+                  }
+              ]
+            },
+            "details_summary": {
+              "number_of_days": 1,
+              "tour_duration": "8 hours",
+              "languages": ["English"],
+              "max_people": 12
+            },
+            "related_tours": [
+              {
+                "tour_id": 116,
+                "tour_city_name": "California",
+                "tour_slug": "california-vineyard-tour",
+                "tour_image": "california-vineyard.jpg",
+                "duration": "6 hours",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["family", "group"],
+                "review": {
+                  "stars": [4.7, 4.9],
+                  "total_reviews": 130
+                },
+                "availability": "Available"
+              }
+            ],
+            "related_city_tours": [
+              {
+                "tour_id": 207,
+                "tour_city_name": "California",
+                "tour_slug": "california-national-park-tour",
+                "tour_image": "california-national-park.jpg",
+                "duration": "2 days",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["solo traveler", "family"],
+                "review": {
+                  "stars": [4.8, 4.9],
+                  "total_reviews": 185
+                },
+                "availability": "Available"
+              }
+            ]
+          },
+          {
+            "id": 115,
+            "name": "California Wine Country Tour",
+            "slug": "california-wine-country-tour",
+            "image": "california-wine-country.jpg",
+            "duration": "8 hours",
+            "transport_availability": "Available",
+            "price": 150.00,
+            "date": "2025-08-15",
+            "availability": "Available",
+            "gallery": [
+              {
+                "id": 1,
+                "image": "california-wine-1.jpg",
+                "image_name": "California Wine 1",
+                "image_slug": "california-wine-1"
+              },
+              {
+                "id": 2,
+                "image": "california-wine-2.jpg",
+                "image_name": "California Wine 2",
+                "image_slug": "california-wine-2"
+              }
+            ],
+            "recommended": 9.8,
+            "popularity": 9.6,
+            "benefits": {
+              "free_cancellation": {
+                "title": "Free Cancellation",
+                "description": "Cancel up to 24 hours before the tour for a full refund."
+              },
+              "mobile_ticketing": {
+                "title": "Mobile Ticketing",
+                "description": "Access your tickets on your mobile."
+              },
+              "instant_confirmation": {
+                "title": "Instant Confirmation",
+                "description": "Instant confirmation for your booking."
+              },
+              "health_precautions": {
+                "title": "Health Precautions",
+                "description": "Health protocols are in place for your safety."
+              }
+            },
+            "durations": {
+              "hour": "8 hours",
+              "days": "0"
+            },
+            "live_tour_guide": {
+              "languages": ["English"]
+            },
+            "descriptions": {
+              "title": "Explore California's Wine Country",
+              "text": "Join a tour through California's picturesque Wine Country. Visit top vineyards and enjoy wine tastings.",
+              "activities": [
+                "Visit renowned vineyards",
+                "Taste world-class wines",
+                "Tour through scenic wine country landscapes"
+              ],
+              "what_is_included": {
+                "title": "What's Included",
+                "list": [
+                  "Transportation",
+                  "Wine tastings at 3 vineyards",
+                  "Guided vineyard tour"
+                ]
+              },
+              "what_is_not_included": {
+                "title": "What's Not Included",
+                "list": [
+                  "Meals",
+                  "Additional drinks"
+                ]
+              },
+              "safety_title": "Health and Safety",
+              "health_precautions_subtitle": "Health & Safety Measures Apply",
+              "health_precautions_list": [
+                "Masks required in indoor locations.",
+                "Vehicles sanitized regularly."
+              ]
+            },
+            "details_title": "Tour Details",
+            "details": {
+              "languages": ["English"],
+              "duration": "8 hours",
+              "max_people": 12
+            },
+            "address": {
+              "location_details": "Pickup from Napa Valley, California.",
+              "google_maps_link": "https://goo.gl/maps/examplelink",
+              "latitude": "38.2975",
+              "longitude": "-122.2869",
+              "name": "Napa Valley",
+              "country": "USA"
+            },
+            "inclusions": [
+              "Transportation",
+              "Wine tastings",
+              "Vineyard tour"
+            ],
+            "exclusions": [
+              "Meals",
+              "Extra drinks"
+            ],
+            "reviews": {
+              "overall_review": {
+                "stars": 4.9,
+                "value_for_money": 97,
+                "guide": 95,
+                "safety": 94,
+                "transport": 92,
+                "review_points": [4.8, 5, 5]
+              },
+              "traveller_reviews": [
+                {
+                  "name": "James Brown",
+                  "id": 9,
+                  "slug": "james-brown-review",
+                  "image": "james-brown.jpg",
+                  "review_date": "2025-07-20",
+                  "traveller_type": "group",
+                  "review_heading": "A Wine Lover's Dream",
+                  "review_description": "The tour was exceptional! We visited some of the best wineries in Napa, and the wines were fantastic. Highly recommend this experience.",
+                  "stars": 5,
+                  "review_number": 1,
+                  "verified_traveller": true
+                }
+              ]
+            },
+            "details_summary": {
+              "number_of_days": 1,
+              "tour_duration": "8 hours",
+              "languages": ["English"],
+              "max_people": 12
+            },
+            "related_tours": [
+              {
+                "tour_id": 116,
+                "tour_city_name": "California",
+                "tour_slug": "california-vineyard-tour",
+                "tour_image": "california-vineyard.jpg",
+                "duration": "6 hours",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["family", "group"],
+                "review": {
+                  "stars": [4.7, 4.9],
+                  "total_reviews": 130
+                },
+                "availability": "Available"
+              }
+            ],
+            "related_city_tours": [
+              {
+                "tour_id": 207,
+                "tour_city_name": "California",
+                "tour_slug": "california-national-park-tour",
+                "tour_image": "california-national-park.jpg",
+                "duration": "2 days",
+                "options": ["guided"],
+                "transport_facility_availability": "Available",
+                "for_whom": ["solo traveler", "family"],
+                "review": {
+                  "stars": [4.8, 4.9],
+                  "total_reviews": 185
+                },
+                "availability": "Available"
+              }
+            ]
+          }
+          
+          
+          
+          
+          
+          
+
+          
+          
+        
+    ]
+  }
+
+
+
+
+
+
+

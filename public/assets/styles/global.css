@@ -1,0 +1,403 @@
+@import "tailwindcss";
+
+:root {
+  /* font color / bg color */
+  --footer-bg: #13253f;
+  --footer-bg-dark: #00000033;
+  --logo-heading-2: #495560;
+  --color-yellow: #ffda32;
+  --color-orange: #ffa432;
+  --color-white: #ffffff;
+  --color-text: #1c2b38;
+  --color-text-dark: #1c2b38;
+  --color-text-light-gray: #778088;
+  --color-text-gray: #495560;
+  --color-text-light-gray2: #495560;
+  --icons-color: #495560;
+  --color-green-light: #7bbcb0;
+  --border-color: #cedadf;
+  --light-section-bg-color: #f9fafd;
+  --info-box-bg: #f9fdff;
+  --color-background: #ffffff;
+  --color-secondary: #48057d;
+
+  /* activity */
+  --activity-green: #affff0;
+  --activity-red: #ff6969;
+  --activity-blue: #59a9fe;
+  --activity-tag-blue: #5c9bde;
+  --activity-tag-yellow: #e4b613;
+  --activity-tag-green: #7bbcb0;
+  --activity-tag-pink: #d176e0;
+  --activity-tag-red: #fc3131;
+
+  /* buttons */
+  --btn-type-3-bg: #495560;
+  --btn-type-3-color: #ffffff;
+  --btn-type-3-text-size: 14px;
+
+  /* linear-gradient */
+  --tours-details-swiper-slide-box-shadow: 0px 8px 34px 0px #0000000f;
+  --pagination-box-shadow: 0px 8px 20px 0px #ffda3280;
+  --search-box-box-shadow: 0px 10px 30px 0px #7bbcb080;
+  --info-box-tags-box-shadow: 0px 4px 10px 0px #00000014;
+  --hero-banner-info-box-shadow: 0px 1px 20px 0px #ffffff;
+
+  --overlay-blur: 15px;
+
+  /* trending - tour */
+  --overlay-lineargradient-color-purple: #48057d;
+  --overlay-lineargradient-color-cyan: #2adde7;
+  --trending-tour-backdrop-filter: blur(15px);
+  --trending-bg-blur: 40px;
+
+  /* font-size */
+  --heading-font-size: 48px;
+  --info-title-font-size: 64px;
+  --subheading-font-size: 36px;
+  --information-font-size: 16px;
+  --icon-font-size: 16px;
+  --information-font-size-sm: 14px;
+  --header-title-font-size: 26px;
+  --header-nav-font-size: 15px;
+
+  --header-title-fonts: NicoMoji; /* logo */
+  --heading-font: Volkhov; /* heading */
+  --heading-font-bold: VolkhovB;
+  --heading-font-light: Volkhov-light; /* heading */
+  --information-font: Mulish; /* info */
+  --information-font-bold: MulishB;
+  --information-font-light: MulishLight; /* info */
+  --information-font-italics: MulishItalics;
+  --secondary-btn-color: #1e2e3b;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+
+  --font-size-sm: 16px;
+  --font-size-md: 18px;
+  --font-size-lg: 20px;
+
+  --heading-text-font-size: 30px;
+
+  --btn-border-radius: 4px;
+
+  --heading-text-font: NicoMoji; /* Logo text */
+  --sub-heading-text-font: NotoSans; /* information */
+  --information-text-font: MulishB; /* Header Links*/
+  --header-links-text-font: MulishB; /* title */
+
+  --box-shadow-default: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --box-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+
+@font-face {
+  font-family: "NicoMoji";
+  src: url("../../../public/assets/fonts/nicoMoji/NicoMoji-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "VolkhovB";
+  src: url("../../../public/assets/fonts/Volkhov/Volkhov-Bold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Volkhov";
+  src: url("../../../public/assets/fonts/Volkhov/Volkhov-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Volkhov-light";
+  src: url("../../../public/assets/fonts/Volkhov/Volkhov-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mulish";
+  src: url("../../../public/assets/fonts/Mulish/static/Mulish-SemiBold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MulishB";
+  src: url("../../../public/assets/fonts/Mulish/static/Mulish-Bold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MulishXB";
+  src: url("../../../public/assets/fonts/Mulish/static/Mulish-ExtraBold.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MulishLight";
+  src: url("../../../public/assets/fonts/Mulish/static/Mulish-Regular.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MulishItalics";
+  src: url("../../../public/assets/fonts/Mulish/static/Mulish-BlackItalic.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-text-light-gray);
+  font-size: var(--information-font-size);
+  font-family: var(--information-font), sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--color-text-dark);
+}
+
+.screen-loader-wrapper {
+  max-height: 100vh;
+  position: fixed;
+  left: 0;
+  overflow: hidden;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  height: 100vh;
+  background-color: #ffffff;
+}
+.screen-loader {
+  width: 48px;
+  height: 48px;
+  transform: rotate(45deg);
+}
+
+.screen-loader::before {
+  content: "";
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0;
+  top: -24px;
+  animation: animloader 4s ease infinite;
+}
+.screen-loader::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  background: rgba(255, 218, 51, 0.85);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  animation: animloader2 2s ease infinite;
+}
+
+@keyframes animloader {
+  0% {
+    box-shadow: 0 24px rgba(255, 218, 51, 0), 24px 24px rgba(255, 218, 51, 0),
+      24px 48px rgba(255, 218, 51, 0), 0px 48px rgba(255, 218, 51, 0);
+  }
+  12% {
+    box-shadow: 0 24px rgba(255, 218, 51, 0.85), 24px 24px rgba(255, 218, 51, 0),
+      24px 48px rgba(255, 218, 51, 0), 0px 48px rgba(255, 218, 51, 0);
+  }
+  25% {
+    box-shadow: 0 24px rgba(255, 218, 51, 0.85),
+      24px 24px rgba(255, 218, 51, 0.85), 24px 48px rgba(255, 218, 51, 0),
+      0px 48px rgba(255, 218, 51, 0);
+  }
+  37% {
+    box-shadow: 0 24px rgba(255, 218, 51, 0.85),
+      24px 24px rgba(255, 218, 51, 0.85), 24px 48px rgba(255, 218, 51, 0.85),
+      0px 48px rgba(255, 218, 51, 0);
+  }
+  50% {
+    box-shadow: 0 24px rgba(255, 218, 51, 0.85),
+      24px 24px rgba(255, 218, 51, 0.85), 24px 48px rgba(255, 218, 51, 0.85),
+      0px 48px rgba(255, 218, 51, 0.85);
+  }
+  62% {
+    box-shadow: 0 24px rgba(255, 218, 51, 0), 24px 24px rgba(255, 218, 51, 0.85),
+      24px 48px rgba(255, 218, 51, 0.85), 0px 48px rgba(255, 218, 51, 0.85);
+  }
+  75% {
+    box-shadow: 0 24px rgba(255, 218, 51, 0), 24px 24px rgba(255, 218, 51, 0),
+      24px 48px rgba(255, 218, 51, 0.85), 0px 48px rgba(255, 218, 51, 0.85);
+  }
+  87% {
+    box-shadow: 0 24px rgba(255, 218, 51, 0), 24px 24px rgba(255, 218, 51, 0),
+      24px 48px rgba(255, 218, 51, 0), 0px 48px rgba(255, 218, 51, 0.85);
+  }
+  100% {
+    box-shadow: 0 24px rgba(255, 218, 51, 0), 24px 24px rgba(255, 218, 51, 0),
+      24px 48px rgba(255, 218, 51, 0), 0px 48px rgba(255, 218, 51, 0);
+  }
+}
+
+@keyframes animloader2 {
+  0% {
+    transform: translate(0, 0) rotateX(0) rotateY(0);
+  }
+  25% {
+    transform: translate(100%, 0) rotateX(0) rotateY(180deg);
+  }
+  50% {
+    transform: translate(100%, 100%) rotateX(-180deg) rotateY(180deg);
+  }
+  75% {
+    transform: translate(0, 100%) rotateX(-180deg) rotateY(360deg);
+  }
+  100% {
+    transform: translate(0, 0) rotateX(0) rotateY(360deg);
+  }
+}
+
+/* login-page */
+
+.login-page-section-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.login-page-section-wrapper-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* background: #1e2e3b; */
+  /* background: linear-gradient(var(--search-box-box-shadow) , var(--pagination-box-shadow)); */
+  z-index: -1;
+}
+
+.login-box {
+  height: auto;
+  width: 100%;
+  max-width: 800px;
+  background: rgb(167, 75, 75);
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: var(--tours-details-swiper-slide-box-shadow);
+}
+.login-box-image {
+  width: 50%;
+  position: relative;
+}
+.login-box-image img {
+  position: absolute;
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+.header-logo {
+  
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 400;
+  color: #151515;
+  display: flex;
+  justify-content: center;
+  line-height: 22px;
+  text-align: center;
+  z-index: 1;
+  font-family: var(--heading-text-font);
+}
+.login-box-content{
+  align-items: center;
+  width: 50%;
+  padding: 30px;
+  background-color: white;
+}
+.login-box-content p{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+  font-family: var(--information-font-bold);
+  color: var(--color-text-dark);
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0 0;
+}
+.form-input{
+  position: relative;
+  color: var(--color-text-dark);
+  padding: 10px 5px;
+  outline: none;
+}
+.input-wrapper{
+  width: 100%;
+  border-bottom: 1.5px solid  var(--color-text-dark);
+
+  position: relative;
+}
+.input-wrapper .icon{
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+.button-wrapper{
+  width: 100%;
+  
+}
+.button-type-1{
+  width: 100%;
+  background-color: #7bbcb0;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  align-items: center;
+}
+/* .button-type-1:hover{
+} */
+.error-message-wrapper {
+  height: 24px;
+  text-align: center;
+}
+.error-message-wrapper p{
+ color: red;
+ font-size: 12px;
+ margin-bottom: 0;
+ display: inline-flex;
+}

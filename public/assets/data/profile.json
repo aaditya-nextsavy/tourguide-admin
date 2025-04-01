@@ -1,0 +1,38 @@
+{
+    "id": 1,
+    "name": "Masum Rana",
+    "email": "masumrana@gmail.com",
+    "password": "masumrana123", 
+    "photoURL": "/assets/media/profile/user1.png",
+    "location": "Gothenburg",
+    "dob": "1886-03-15",
+    "birthDate": "15th February",
+    "phone": "+46-7644-394-68",
+    "bookingHistory": [
+      {
+        "bookingId": "B001",
+        "tourName": "London City Tour",
+        "date": "2024-02-10",
+        "status": "Completed"
+      },
+      {
+        "bookingId": "B002",
+        "tourName": "Alaska Tour",
+        "date": "2024-06-20",
+        "status": "Upcoming"
+      }
+    ],
+    "newsletters": [
+      {
+        "id": "N001",
+        "title": "Travel Deals & Discounts",
+        "subscribed": true
+      },
+      {
+        "id": "N002",
+        "title": "Latest Travel News",
+        "subscribed": false
+      }
+    ]
+  }
+  

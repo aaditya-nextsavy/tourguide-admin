@@ -1,0 +1,747 @@
+{
+    "cities": [
+      {
+        "id": "city_1",
+        "slug": "london",
+        "name": "London",
+        "tours": [
+          {
+            "id": "tour_london_vintage_1",
+            "slug": "vintage-double-decker-bus-tour-thames-river-cruise",
+            "title": "Vintage Double Decker Bus Tour & Thames River Cruise",
+            "location": "Gothenburg",
+            "city_id": "city_1",
+            "city_slug": "london",
+            "city_name": "London",
+            "gallery": [
+              "/assets/media/details/london1/london1.png",
+             "/assets/media/details/london1/london2.png",
+             "/assets/media/details/london1/london3.png",
+             "/assets/media/details/london1/london4.png",
+             "/assets/media/details/london1/london5.png",
+             "/assets/media/details/london1/london6.png"
+            ],
+            "reviews": 348,
+            "stars": 4.7,
+            "duration":"3.5 hours",
+            "booking_data": {
+              "from_date": "2025-04-01",
+              "to_date": "2025-04-10",
+              "no_of_guests": 2,
+              "price_per_person": 78.91
+            },
+            
+            "tour_info": {
+              "description": {
+                "title": "Description",
+                "info": "<p>See the highlights of London via 2 classic modes of transport on this half-day adventure. First, you will enjoy great views of Westminster Abbey, the Houses of Parliament, and the London Eye, as you meander through the historic streets on board a vintage double decker bus.</p><p>Continue to see St. Paul’s Cathedral, Sir Christopher Wren’s architectural masterpiece, where Admirals Nelson and Wellington are buried, and Princess Diana and Prince Charles got married. Continue to the Tower of London, built nearly 1,000 years ago during the reign of William the Conqueror.</p><p>Home to the Crown Jewels, the Tower is protected by the famous Beefeaters, and the imposing palace has been used as a fortress and a prison throughout its history. Your guide will take you to Traitors Gate, where prisoners entered the Tower for the last time.</p><p>Next, take a short trip along the River Thames, passing Shakespeare’s Globe, Cleopatra’s Needle, and London Bridge, before arriving at Westminster Pier. Rejoin the bus and head for Buckingham Palace. Make your way to the perfect spot to watch the world famous Changing of the Guard ceremony as the soldiers, dressed in their fabulous tunics and busbies, march to military music.</p>"
+              },
+              "activity": {
+                "title": "Activity",
+                "subhead": "What you will do",
+                "list": [
+                  "Discover London on board a classic Routemaster vintage double decker bus",
+                  "Cruise down the River Thames",
+                  "See the Changing of the Guard",
+                  "Go to Westminster Abbey",
+                  "Listen to the chimes of Big Ben and see the Houses of Parliament"
+                ]
+              },
+              "inclusion": {
+                "title": "What is Included / Not Included",
+                "included": {
+                  "subhead": "Includes",
+                  "list": [
+                    "Double-decker Routemaster tour",
+                    "Short trip along the River Thames",
+                    "Changing of the Guard",
+                    "Gratuities"   
+                  ]
+                },
+                "not_included": {
+                  "subhead": "Not Included",
+                  "list": [
+                    "Double-decker Routemaster tour",
+                    "Short trip along the River Thames",
+                    "Changing of the Guard",
+                    "Gratuities"
+                  ]
+                }
+              },
+              "saftey": {
+                "title": "Safety Measures",
+                "subhead": "Health Precautions",
+                "list": [
+                  "All required protective equipment is provided",
+                  "All areas that customers touch are frequently cleaned",
+                  "You must keep social distance while in vehicles",
+                  "The number of visitors is limited to reduce crowds"
+                
+                ]
+              },
+              "details": {
+                "title": "Details",
+                "columns": [
+                  {
+                    "subhead": "Language",
+                    "list": ["English", "French"]
+                  },
+                  {
+                    "subhead": "Duration",
+                    "list": ["2 hours"]
+                  },
+                  {
+                    "subhead": "Number of People",
+                    "list": ["5 people"]
+                  }
+                ]
+              },
+              "meeting_point": {
+                "subhead":"Meeting Point Address",
+                "address":["Meet your guide inside the west entrance of Altab Ali Park (Whitechapel Road). It's opposite the entrance to Aldgate East Tube Station and the Whitechapel Gallery. Look for a guide wearing SMT attire and holding a red SMT flag"],
+                "link":"https://maps.app.goo.gl/s54fq8VYUdv4kTDa7",
+                "google_maps": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7352.491964985041!2d-0.1306161969093401!3d51.50771191379841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1743080262963!5m2!1sen!2sin"
+              }
+
+            },
+            "related_tours_today": [
+              {
+                "image": "/assets/images/alaska.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "family Plan",
+                "stars": 4.5,
+                "reviews":548, 
+                "price_per_person": 25.00
+              },
+              {
+                "image": "/assets/images/australia.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "family Plan",
+                "stars": 4.5,
+                "reviews":548, 
+                "price_per_person": 25.00
+              }
+            ],
+            "related_tours_city": [
+              {
+                "image": "/assets/images/alaska.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "family Plan",
+                "stars": 4.5,
+                "reviews":548, 
+                "price_per_person": 25.00
+              },
+              {
+                "image": "/assets/images/australia.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "family Plan",
+                "stars": 4.5,
+                "reviews":548, 
+                "price_per_person": 25.00
+              }
+            ],
+            "customer_review":{
+              "score":4.30,
+              "reviews_count":854,
+              "stars":4
+
+            }
+          },
+          {
+            "id": "tour_london_history_2",
+            "slug": "historical-london-walking-tour-tower-of-london",
+            "title": "Historical London Walking Tour & Tower of London",
+            "location": "London",
+            "gallery": [
+              "/assets/media/details/london2/london1.png",
+              "/assets/media/details/london2/london2.png",
+              "/assets/media/details/london2/london3.png",
+              "/assets/media/details/london2/london4.png",
+              "/assets/media/details/london2/london5.png",
+              "/assets/media/details/london2/london6.png"
+            ],
+            "reviews": 276,
+            "stars": 4.6,
+            "duration": "4 hours",
+            "booking_data": {
+              "from_date": "2025-04-05",
+              "to_date": "2025-04-15",
+              "no_of_guests": 2,
+              "price_per_person": 65.00
+            },
+            "tour_info": {
+              "description": {
+                "title": "Description",
+                "info": "<p>Step back in time and explore London's rich history on this immersive walking tour. Start at the iconic Tower of London, where the infamous Beefeaters will guide you through centuries of royal history and intrigue.</p><p>Marvel at the Crown Jewels, hear tales of past executions, and walk the medieval walls that once protected the city. Then, follow your expert guide through historic alleyways to discover hidden gems, including St. Dunstan in the East and the ruins of an ancient monastery.</p><p>Conclude your journey at the famous Tower Bridge, where you'll enjoy breathtaking views of the Thames and the city skyline.</p>"
+              },
+              "activity": {
+                "title": "Activity",
+                "subhead": "What you will do",
+                "list": [
+                  "Visit the legendary Tower of London with a guided tour",
+                  "See the world-famous Crown Jewels",
+                  "Walk through historic alleys and hidden London landmarks",
+                  "Cross the iconic Tower Bridge",
+                  "Hear stories of medieval London from a local historian"
+                ]
+              },
+              "inclusion": {
+                "title": "What is Included / Not Included",
+                "included": {
+                  "subhead": "Includes",
+                  "list": [
+                    "Entry to the Tower of London",
+                    "Expert local tour guide",
+                    "Walking tour of historic London landmarks",
+                    "Tower Bridge access"
+                  ]
+                },
+                "not_included": {
+                  "subhead": "Not Included",
+                  "list": [
+                    "Food and drinks",
+                    "Hotel pickup and drop-off",
+                    "Gratuities"
+                  ]
+                }
+              },
+              "saftey": {
+                "title": "Safety Measures",
+                "subhead": "Health Precautions",
+                "list": [
+                  "All required protective equipment is provided",
+                  "All areas that customers touch are frequently cleaned",
+                  "You must keep social distance while on the tour",
+                  "The number of visitors is limited to reduce crowds"
+                ]
+              },
+              "details": {
+                "title": "Details",
+                "columns": [
+                  {
+                    "subhead": "Language",
+                    "list": ["English", "Spanish"]
+                  },
+                  {
+                    "subhead": "Duration",
+                    "list": ["4 hours"]
+                  },
+                  {
+                    "subhead": "Number of People",
+                    "list": ["5 people"]
+                  }
+                ]
+              },
+              "meeting_point": {
+                "subhead": "Meeting Point Address",
+                "address": [
+                  "Meet your guide inside the west entrance of Altab Ali Park (Whitechapel Road). It's opposite the entrance to Aldgate East Tube Station and the Whitechapel Gallery. Look for a guide wearing SMT attire and holding a red SMT flag"
+                ],
+                "link": "https://maps.app.goo.gl/s54fq8VYUdv4kTDa7",
+                "google_maps": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7352.491964985041!2d-0.1306161969093401!3d51.50771191379841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1743080262963!5m2!1sen!2sin"
+              }
+            },
+            "related_tours_today": [
+              {
+                "image": "/assets/images/alaska.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "Family Plan",
+                "stars": 4.5,
+                "reviews": 548,
+                "price_per_person": 25.00
+              },
+              {
+                "image": "/assets/images/australia.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "Family Plan",
+                "stars": 4.5,
+                "reviews": 548,
+                "price_per_person": 25.00
+              }
+            ],
+            "related_tours_city": [
+              {
+                "image": "/assets/images/alaska.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "Family Plan",
+                "stars": 4.5,
+                "reviews": 548,
+                "price_per_person": 25.00
+              },
+              {
+                "image": "/assets/images/australia.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "Family Plan",
+                "stars": 4.5,
+                "reviews": 548,
+                "price_per_person": 25.00
+              }
+            ],
+            "customer_review": {
+              "score": 4.50,
+              "reviews_count": 723,
+              "stars": 4
+            }
+          },
+
+          {
+            "id": "tour_london_night_3",
+            "slug": "london-night-sightseeing-tour-open-top-bus",
+            "title": "London Night Sightseeing Tour on an Open-Top Bus",
+            "location": "London",
+            "gallery": [
+              "/assets/media/details/london3/london1.png",
+              "/assets/media/details/london3/london2.png",
+              "/assets/media/details/london3/london3.png",
+              "/assets/media/details/london3/london4.png",
+              "/assets/media/details/london3/london5.png",
+              "/assets/media/details/london3/london6.png"
+            ],
+            "reviews": 412,
+            "stars": 4.8,
+            "duration": "2.5 hours",
+            "booking_data": {
+              "from_date": "2025-04-10",
+              "to_date": "2025-04-20",
+              "no_of_guests": 2,
+              "price_per_person": 45.99
+            },
+            "tour_info": {
+              "description": {
+                "title": "Description",
+                "info": "<p>Experience the magic of London at night on this breathtaking open-top bus tour. As the city lights up, you'll cruise past some of its most iconic landmarks, including Big Ben, Tower Bridge, and the London Eye.</p><p>Your expert guide will share fascinating stories about the city's history and culture as you take in the illuminated skyline. Enjoy spectacular views of St. Paul's Cathedral, Trafalgar Square, and Buckingham Palace, all beautifully lit up in the evening.</p><p>This tour is perfect for those who want to see London in a whole new light while enjoying a relaxing ride through its historic streets.</p>"
+              },
+              "activity": {
+                "title": "Activity",
+                "subhead": "What you will do",
+                "list": [
+                  "Enjoy an evening bus tour of London with stunning night views",
+                  "See illuminated landmarks like Tower Bridge, Big Ben, and the London Eye",
+                  "Learn about the city's history from a live guide",
+                  "Drive through Trafalgar Square and past St. Paul’s Cathedral",
+                  "Experience the beauty of London's nightlife in comfort"
+                ]
+              },
+              "inclusion": {
+                "title": "What is Included / Not Included",
+                "included": {
+                  "subhead": "Includes",
+                  "list": [
+                    "Guided open-top bus tour of London at night",
+                    "Live commentary from an expert guide",
+                    "See London’s major landmarks beautifully illuminated"
+                  ]
+                },
+                "not_included": {
+                  "subhead": "Not Included",
+                  "list": [
+                    "Food and drinks",
+                    "Hotel pickup and drop-off",
+                    "Gratuities"
+                  ]
+                }
+              },
+              "saftey": {
+                "title": "Safety Measures",
+                "subhead": "Health Precautions",
+                "list": [
+                  "All required protective equipment is provided",
+                  "All areas that customers touch are frequently cleaned",
+                  "Social distancing is maintained on the bus",
+                  "Limited capacity to ensure a safe experience"
+                ]
+              },
+              "details": {
+                "title": "Details",
+                "columns": [
+                  {
+                    "subhead": "Language",
+                    "list": ["English", "German"]
+                  },
+                  {
+                    "subhead": "Duration",
+                    "list": ["2.5 hours"]
+                  },
+                  {
+                    "subhead": "Number of People",
+                    "list": ["5 people"]
+                  }
+                ]
+              },
+              "meeting_point": {
+                "subhead": "Meeting Point Address",
+                "address": [
+                  "Meet your guide inside the west entrance of Altab Ali Park (Whitechapel Road). It's opposite the entrance to Aldgate East Tube Station and the Whitechapel Gallery. Look for a guide wearing SMT attire and holding a red SMT flag"
+                ],
+                "link": "https://maps.app.goo.gl/s54fq8VYUdv4kTDa7",
+                "google_maps": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7352.491964985041!2d-0.1306161969093401!3d51.50771191379841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1743080262963!5m2!1sen!2sin"
+              }
+            },
+            "related_tours_today": [
+              {
+                "image": "/assets/images/alaska.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "Family Plan",
+                "stars": 4.5,
+                "reviews": 548,
+                "price_per_person": 25.00
+              },
+              {
+                "image": "/assets/images/australia.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "Family Plan",
+                "stars": 4.5,
+                "reviews": 548,
+                "price_per_person": 25.00
+              }
+            ],
+            "related_tours_city": [
+              {
+                "image": "/assets/images/alaska.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "Family Plan",
+                "stars": 4.5,
+                "reviews": 548,
+                "price_per_person": 25.00
+              },
+              {
+                "image": "/assets/images/australia.jpg",
+                "title": "Alaska: Westminster to Greenwich River Thames",
+                "duration": "2 hours",
+                "transport": "Transport Facility",
+                "family_plan": "Family Plan",
+                "stars": 4.5,
+                "reviews": 548,
+                "price_per_person": 25.00
+              }
+            ],
+            "customer_review": {
+              "score": 4.60,
+              "reviews_count": 982,
+              "stars": 5
+            }
+          }
+        ]
+      },
+      {
+        "id": "city_2",
+        "slug": "tokyo",
+        "name": "Tokyo",
+        "tours": [
+          {
+            "id": "tour_tokyo_shibuya_1",
+            "slug": "tokyo-shibuya-food-and-nightlife-tour",
+            "title": "Tokyo Shibuya Food and Nightlife Tour",
+            "location": "Tokyo",
+            "gallery": [
+              "/assets/media/details/tokyo1/tokyo1.png",
+              "/assets/media/details/tokyo1/tokyo2.png",
+              "/assets/media/details/tokyo1/tokyo3.png",
+              "/assets/media/details/tokyo1/tokyo4.png",
+              "/assets/media/details/tokyo1/tokyo5.png",
+              "/assets/media/details/tokyo1/tokyo6.png"
+            ],
+            "reviews": 289,
+            "stars": 4.9,
+            "duration": "4 hours",
+            "booking_data": {
+              "from_date": "2025-04-05",
+              "to_date": "2025-04-15",
+              "no_of_guests": 2,
+              "price_per_person": 65.50
+            },
+            "tour_info": {
+              "description": {
+                "title": "Description",
+                "info": "<p>Experience the vibrant nightlife and delicious street food of Tokyo's famous Shibuya district. This guided tour takes you through hidden izakayas, local food stalls, and popular nightlife spots, giving you a true taste of Tokyo after dark.</p><p>Start your journey at the iconic Shibuya Crossing before heading into the backstreets to discover Tokyo’s best-kept food secrets. Taste authentic yakitori, ramen, and Japanese whisky as you explore lively bars and restaurants.</p><p>Perfect for food lovers and night owls, this tour will show you a different side of Tokyo—one filled with neon lights, delicious aromas, and endless excitement.</p>"
+              },
+              "activity": {
+                "title": "Activity",
+                "subhead": "What you will do",
+                "list": [
+                  "Walk through the bustling streets of Shibuya and experience Tokyo’s nightlife",
+                  "Taste authentic Japanese street food, including yakitori and ramen",
+                  "Visit hidden izakayas (Japanese pubs) and enjoy drinks with locals",
+                  "Explore popular nightlife spots and learn about Japanese drinking culture",
+                  "See the famous Shibuya Crossing and experience the city’s vibrant energy"
+                ]
+              },
+              "inclusion": {
+                "title": "What is Included / Not Included",
+                "included": {
+                  "subhead": "Includes",
+                  "list": [
+                    "Guided food and nightlife tour",
+                    "Food tastings at multiple local spots",
+                    "One drink at each stop",
+                    "Expert local guide"
+                  ]
+                },
+                "not_included": {
+                  "subhead": "Not Included",
+                  "list": [
+                    "Additional food and drinks",
+                    "Transportation to and from the meeting point",
+                    "Gratuities"
+                  ]
+                }
+              },
+              "saftey": {
+                "title": "Safety Measures",
+                "subhead": "Health Precautions",
+                "list": [
+                  "All required protective equipment is provided",
+                  "All areas that customers touch are frequently cleaned",
+                  "Limited group size to ensure safety",
+                  "Hand sanitizers available at each stop"
+                ]
+              },
+              "details": {
+                "title": "Details",
+                "columns": [
+                  {
+                    "subhead": "Language",
+                    "list": ["English", "Japanese"]
+                  },
+                  {
+                    "subhead": "Duration",
+                    "list": ["4 hours"]
+                  },
+                  {
+                    "subhead": "Number of People",
+                    "list": ["5 people"]
+                  }
+                ]
+              },
+              "meeting_point": {
+                "subhead": "Meeting Point Address",
+                "address": [
+                  "Meet your guide in front of the Hachiko Statue, outside Shibuya Station. Look for a guide wearing a red tour flag."
+                ],
+                "link": "https://maps.app.goo.gl/shibuyaHachiko",
+                "google_maps": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3241.242738802985!2d139.701636!3d35.659486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sjp!4v1743080262963!5m2!1sen!2sjp"
+              }
+            },
+            "related_tours_today": [
+              {
+                "image": "/assets/images/tokyo2.jpg",
+                "title": "Tokyo: Hidden Izakayas and Sake Tasting Tour",
+                "duration": "3 hours",
+                "transport": "Walking Tour",
+                "family_plan": "Adult Only",
+                "stars": 4.7,
+                "reviews": 380,
+                "price_per_person": 55.00
+              },
+              {
+                "image": "/assets/images/tokyo3.jpg",
+                "title": "Tokyo: Cultural and Street Food Walking Tour",
+                "duration": "4 hours",
+                "transport": "Walking Tour",
+                "family_plan": "Family Friendly",
+                "stars": 4.8,
+                "reviews": 412,
+                "price_per_person": 60.00
+              }
+            ],
+            "related_tours_city": [
+              {
+                "image": "/assets/images/tokyo4.jpg",
+                "title": "Tokyo: Sushi Making Experience with a Local Chef",
+                "duration": "2.5 hours",
+                "transport": "Indoor Activity",
+                "family_plan": "Family Friendly",
+                "stars": 4.9,
+                "reviews": 275,
+                "price_per_person": 70.00
+              },
+              {
+                "image": "/assets/images/tokyo5.jpg",
+                "title": "Tokyo: Private Sightseeing and Food Tour",
+                "duration": "5 hours",
+                "transport": "Walking & Public Transport",
+                "family_plan": "Customizable",
+                "stars": 4.9,
+                "reviews": 310,
+                "price_per_person": 90.00
+              }
+            ],
+            "customer_review": {
+              "score": 4.75,
+              "reviews_count": 289,
+              "stars": 5
+            }
+          },
+          {
+            "id": "tour_tokyo_temple_1",
+            "slug": "tokyo-asakusa-temple-and-street-food-tour",
+            "title": "Tokyo Asakusa Temple and Street Food Tour",
+            "location": "Tokyo",
+            "gallery": [
+              "/assets/media/details/tokyo2/tokyo1.png",
+              "/assets/media/details/tokyo2/tokyo2.png",
+              "/assets/media/details/tokyo2/tokyo3.png",
+              "/assets/media/details/tokyo2/tokyo4.png",
+              "/assets/media/details/tokyo2/tokyo5.png",
+              "/assets/media/details/tokyo2/tokyo6.png"
+            ],
+            "reviews": 312,
+            "stars": 4.8,
+            "duration": "3.5 hours",
+            "booking_data": {
+              "from_date": "2025-04-10",
+              "to_date": "2025-04-20",
+              "no_of_guests": 2,
+              "price_per_person": 58.00
+            },
+            "tour_info": {
+              "description": {
+                "title": "Description",
+                "info": "<p>Explore the historical heart of Tokyo in Asakusa, home to the famous Sensō-ji Temple and Nakamise shopping street. This tour will take you through the bustling streets filled with traditional snacks and souvenirs while learning about Japan’s rich history.</p><p>Start by visiting Sensō-ji, Tokyo’s oldest temple, before strolling through Nakamise Street to sample authentic Japanese street food, including taiyaki (fish-shaped pastries), melon pan, and matcha treats.</p><p>Perfect for history lovers and foodies, this tour offers a deep dive into Tokyo’s cultural heritage.</p>"
+              },
+              "activity": {
+                "title": "Activity",
+                "subhead": "What you will do",
+                "list": [
+                  "Visit Sensō-ji, Tokyo’s oldest and most famous Buddhist temple",
+                  "Walk through Nakamise Street and explore its traditional market",
+                  "Try authentic Japanese street food, including taiyaki and melon pan",
+                  "Learn about Tokyo’s rich history and religious traditions",
+                  "Enjoy matcha tea at a local teahouse"
+                ]
+              },
+              "inclusion": {
+                "title": "What is Included / Not Included",
+                "included": {
+                  "subhead": "Includes",
+                  "list": [
+                    "Guided walking tour",
+                    "Temple visit",
+                    "Street food tastings",
+                    "Local guide"
+                  ]
+                },
+                "not_included": {
+                  "subhead": "Not Included",
+                  "list": [
+                    "Additional food and drinks",
+                    "Transportation to and from the meeting point",
+                    "Gratuities"
+                  ]
+                }
+              },
+              "saftey": {
+                "title": "Safety Measures",
+                "subhead": "Health Precautions",
+                "list": [
+                  "Small group sizes to ensure social distancing",
+                  "Hand sanitizers available at all stops",
+                  "Regular cleaning of shared spaces",
+                  "Face masks required in crowded areas"
+                ]
+              },
+              "details": {
+                "title": "Details",
+                "columns": [
+                  {
+                    "subhead": "Language",
+                    "list": ["English", "Japanese"]
+                  },
+                  {
+                    "subhead": "Duration",
+                    "list": ["3.5 hours"]
+                  },
+                  {
+                    "subhead": "Number of People",
+                    "list": ["5 people"]
+                  }
+                ]
+              },
+              "meeting_point": {
+                "subhead": "Meeting Point Address",
+                "address": [
+                  "Meet your guide at the entrance of Sensō-ji Temple, Asakusa. Look for a guide wearing a red tour flag."
+                ],
+                "link": "https://maps.app.goo.gl/asakusaTemple",
+                "google_maps": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3242.242738802985!2d139.794136!3d35.711486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sjp!4v1743080262963!5m2!1sen!2sjp"
+              }
+            },
+            "related_tours_today": [
+              {
+                "image": "/assets/images/tokyo6.jpg",
+                "title": "Tokyo: Ueno Park and Traditional Food Tour",
+                "duration": "3 hours",
+                "transport": "Walking Tour",
+                "family_plan": "Family Friendly",
+                "stars": 4.7,
+                "reviews": 350,
+                "price_per_person": 50.00
+              },
+              {
+                "image": "/assets/images/tokyo7.jpg",
+                "title": "Tokyo: Hidden Gems and Old Town Walking Tour",
+                "duration": "4 hours",
+                "transport": "Walking Tour",
+                "family_plan": "Family Friendly",
+                "stars": 4.8,
+                "reviews": 400,
+                "price_per_person": 62.00
+              }
+            ],
+            "related_tours_city": [
+              {
+                "image": "/assets/images/tokyo8.jpg",
+                "title": "Tokyo: Samurai Experience and Sword Training",
+                "duration": "2 hours",
+                "transport": "Indoor Activity",
+                "family_plan": "Family Friendly",
+                "stars": 4.9,
+                "reviews": 200,
+                "price_per_person": 75.00
+              },
+              {
+                "image": "/assets/images/tokyo9.jpg",
+                "title": "Tokyo: Private Cultural and Sightseeing Tour",
+                "duration": "5 hours",
+                "transport": "Walking & Public Transport",
+                "family_plan": "Customizable",
+                "stars": 4.9,
+                "reviews": 315,
+                "price_per_person": 95.00
+              }
+            ],
+            "customer_review": {
+              "score": 4.80,
+              "reviews_count": 312,
+              "stars": 5
+            }
+          }
+          
+          
+        ]
+      }
+    ]
+  }
+  

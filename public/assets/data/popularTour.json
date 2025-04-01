@@ -1,0 +1,60 @@
+[
+    {
+      "id": "alaska",
+      "name": "Alaska",
+      "image": "/assets/images/alaska.jpg",
+      "description": "Explore the wild beauty of Alaska's vast landscapes, glaciers, and wildlife.",
+      "tags": ["Nature", "Adventure", "Wildlife"]
+    },
+    {
+      "id": "dubai",
+      "name": "Dubai",
+      "image": "/assets/images/dubai.jpg",
+      "description": "A modern marvel in the desert, known for luxury shopping, futuristic architecture, and a vibrant nightlife scene.",
+      "tags": ["Luxury", "Shopping", "Nightlife"]
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "image": "/assets/images/london.jpg",
+      "description": "A historic city famous for its iconic landmarks, museums, and multicultural atmosphere.",
+      "tags": ["History", "Culture", "Landmarks"]
+    },
+    {
+      "id": "sydney",
+      "name": "Sydney",
+      "image": "/assets/images/australia.jpg",
+      "description": "Experience the laid-back lifestyle, incredible beaches, and unique wildlife of Australia.",
+      "tags": ["Beaches", "Nature", "Wildlife"]
+    },
+ 
+    {
+      "id": "newyork",
+      "name": "New York", 
+      "image": "/assets/images/nyc.jpg",
+      "description": "The city that never sleeps, known for its skyscrapers, art, culture, and diverse neighborhoods.",
+      "tags": ["Skyscrapers", "Art", "Culture"]
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo",
+      "image": "/assets/images/tokyo.jpg",
+      "description": "A bustling metropolis blending traditional culture and futuristic technology.",
+      "tags": ["Technology", "Culture", "Shopping"]
+    },
+    {
+      "id": "california",
+      "name": "California",
+      "image": "/assets/images/california.jpg",
+      "description": "Known for its beaches, vineyards, and the entertainment capital, California is a hub of culture and outdoor adventures.",
+      "tags": ["Beaches", "Vineyards", "Entertainment"]
+    },
+    {
+      "id": "delhi",
+      "name": "Delhi",
+      "image": "/assets/images/delhi.jpg",
+      "description": "A historic city with rich culture, offering an eclectic mix of modernity and tradition.",
+      "tags": ["Culture", "History", "Tradition"]
+    }
+  ]
+  

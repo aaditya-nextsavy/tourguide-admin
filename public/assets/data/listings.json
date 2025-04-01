@@ -1,0 +1,40 @@
+{
+    "paris": [
+      {
+        "image": "/assets/images/paris1.jpg",
+        "activity": "Sightseeing",
+        "rating": 4,
+        "reviews": 120,
+        "title": "Eiffel Tower Tour",
+        "duration": "2h",
+        "transport": "Included",
+        "familyPlan": "Family-friendly",
+        "price": 50
+      },
+      {
+        "image": "/assets/images/paris2.jpg",
+        "activity": "Museum",
+        "rating": 5,
+        "reviews": 85,
+        "title": "Louvre Museum Tour",
+        "duration": "3h",
+        "transport": "Self-guided",
+        "familyPlan": "Suitable for kids",
+        "price": 40
+      }
+    ],
+    "london": [
+      {
+        "image": "/assets/images/london1.jpg",
+        "activity": "Historical",
+        "rating": 4.5,
+        "reviews": 200,
+        "title": "Tower of London Tour",
+        "duration": "3h",
+        "transport": "Guided",
+        "familyPlan": "Great for families",
+        "price": 60
+      }
+    ]
+  }
+  
