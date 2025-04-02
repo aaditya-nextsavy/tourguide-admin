@@ -35,8 +35,8 @@ export default function Sidebar() {
                 </Link>
               </li>
               <li className="mb-2">
-                <Link href="/tours/cities" className="hover:text-gray-300">
-                  Cities
+                <Link href="/tours/locations" className="hover:text-gray-300">
+                  Locations
                 </Link>
               </li>
             </ul>

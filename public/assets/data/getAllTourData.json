@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "image": "/assets/images/cities/alaska.jpg",
+      "name": "John Doe",
+      "location": "New York",
+      "category": "Family Trip"
+    },
+    {
+      "id": 2,
+      "image": "/assets/images/cities/alaska.jpg",
+      "name": "Jane Smith",
+      "location": "Los Angeles",
+      "category": "Solo"
+    },
+    {
+      "id": 3,
+      "image": "/assets/images/cities/alaska.jpg",
+      "name": "Alice Johnson",
+      "location": "Chicago",
+      "category": " Group"
+    }
+  ]
+  
