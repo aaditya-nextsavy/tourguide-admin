@@ -414,66 +414,13 @@ export default function Tours() {
                     <label className="reqq"> Cover Image:</label>
                   </div>
                   <div className="input-value">
-                    <div
-                      className={`border-2 border-dashed rounded-xl p-6 text-center cursor-pointer ${
-                        dragActive
-                          ? "border-blue-500 bg-blue-50"
-                          : "border-gray-300"
-                      }`}
-                      onDragOver={(e) => {
-                        e.preventDefault();
-                        setDragActive(true);
-                      }}
-                      onDragLeave={() => setDragActive(false)}
-                      onDrop={handleDrop}
-                      onClick={() =>
-                        document.getElementById("uploadInput").click()
-                      }
-                    >
-                      <input
-                        id="uploadInput"
-                        type="file"
-                        accept=".png,.jpg,.jpeg,.svg,.pjpeg"
-                        className="hidden"
-                        onChange={handleChange}
-                      />
-
-                      {!formData.image && (
-                        <>
-                          <p>Drag and drop file here</p>
-                          <p>
-                            <strong>Click here to upload image</strong>
-                          </p>
-                          <p>Max file size: 5MB</p>
-                        </>
-                      )}
-
-                      
-                      {formData.image && (
-                        <div className="mt-4 text-center">
-                          <img
-                            src={
-                              formData.image instanceof File
-                                ? URL.createObjectURL(formData.image)
-                                : formData.image
-                            }
-                            alt="Preview"
-                            className="mx-auto max-h-48 rounded-md object-contain"
-                          />
-                          <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              handleRemoveImage();
-                            }}
-                            className="mt-2 text-sm text-red-500 hover:underline"
-                          >
-                            Remove Image
-                          </button>
-                        </div>
-                      )}
-
-                      {error && <p className="text-red-500 mt-2">{error}</p>}
-                    </div>
+                  <input
+                      type="text"
+                      name="image"
+                      placeholder="Image URL"
+                      value={formData.image}
+                      onChange={handleInputChange}
+                    />
                   </div>
                 </div>
 

@@ -48,26 +48,7 @@ export default function Home() {
         </button>
       </div>
       <div>
-        <h1>Our Tours</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {tours.map((tour) => (
-            <div key={tour.id} className="border p-4 rounded-lg shadow-lg">
-              <h2 className="text-xl font-bold">{tour.name}</h2>
-              <p>
-                <strong>Location:</strong> {tour.location}
-              </p>
-              <p>
-                <strong>Days:</strong> {tour.days}
-              </p>
-              <p>
-                <strong>Number of Persons:</strong> {tour.number_of_person}
-              </p>
-              <p>
-                <strong>Types:</strong> {tour.for.join(", ")}
-              </p>
-            </div>
-          ))}
-        </div>
+      
       </div>
     </div>
   );

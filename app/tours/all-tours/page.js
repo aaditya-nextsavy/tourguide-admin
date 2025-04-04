@@ -8,10 +8,10 @@ import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
 import { HiDotsVertical } from "react-icons/hi";
-import sampleImage from "../../../public/assets/media/trending-city/london-video.png"
+import sampleImage from "../../../public/assets/media/trending-city/london-video.png";
 export default function Tours() {
   const [loading, setLoading] = useState(true);
-  const [fetchedData, setFetchedData] = useState([]); 
+  const [fetchedData, setFetchedData] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
@@ -21,7 +21,7 @@ export default function Tours() {
         const result = await response.json();
         if (result.success) {
           setFetchedData(result.data || []);
-          setLoading(false)
+          setLoading(false);
         } else {
           console.error("Error fetching tours:", result.error);
         }
@@ -45,14 +45,12 @@ export default function Tours() {
       (tour?.location && tour.location.toLowerCase().includes(query))
     );
   });
-  
 
   // if (loading) return <Loader />;
 
   return (
     <div className="main-content">
-
-    <Navbar title="All Tours" backFlag={false} />
+      <Navbar title="All Tours" backFlag={false} />
 
       <div className="container">
         <div className="content-information">
@@ -87,12 +85,22 @@ export default function Tours() {
                     <tr key={item.id}>
                       <td className="t-first-row">{item.id}</td>
                       <td>
-                        <Image
-                          src={item.image || "/assets/media/trending-city/london-video.png"}
-                          width={50}
-                          height={50}
-                          alt={item.tourName || "Tour Image"}
-                        />
+                        {typeof item.image === "string" &&
+                        item.image.trim() !== "" ? (
+                          <Image
+                            src={item.image}
+                            width={50}
+                            height={50}
+                            alt="Tour Image"
+                          />
+                        ) : (
+                          <Image
+                            src="/assets/media/trending-city/london-video.png"
+                            width={50}
+                            height={50}
+                            alt="Default Image"
+                          />
+                        )}
                       </td>
                       <td>{item.tourName || "N/A"}</td>
                       <td>{item.location || "N/A"}</td>

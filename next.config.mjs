@@ -1,6 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: false,
-};
-
-export default nextConfig;
+    images: {
+      domains: ["www.istockphoto.com"],
+    },
+    async redirects() {
+      return [
+        {
+          source: "/",
+          destination: "/tours/all-tours",
+          permanent: false, 
+        },
+      ];
+    },
+  };
+  
+  export default nextConfig;
+  
