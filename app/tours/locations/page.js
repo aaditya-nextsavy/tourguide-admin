@@ -1,54 +1,51 @@
 "use client";
 import { useState, useEffect } from "react";
-import { auth } from "@/lib/firebase";
-import { signOut } from "firebase/auth";
 import { useRouter } from "next/navigation";
 import Loader from "@/components/Loader";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
+import Link from "next/link";
 import { HiDotsVertical } from "react-icons/hi";
 
-export default function Tours() {
-  const [tours, setTours] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [t_slug, setSlug] = useState("");
-  const [t_name, setName] = useState("");
-  const [message, setMessage] = useState("");
-  const [data, setData] = useState([]);
+export default function Locations() {
+  const [loading, setLoading] = useState(true);
+  const [locations, setLocations] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
 
+  const router = useRouter();
+
   useEffect(() => {
-    fetch("/assets/data/getAllTourData.json")
-      .then((response) => response.json())
-      .then((jsonData) => setData(jsonData))
-      .catch((error) => console.error("Error loading data:", error));
+    async function fetchLocations() {
+      try {
+        const response = await fetch("/api/locations");
+        const result = await response.json();
+
+        console.log("API Response:", result);
+
+        if (result.success && Array.isArray(result.data)) {
+          setLocations(result.data);
+        } else {
+          console.error("Invalid API response:", result);
+          setLocations([]); 
+        }
+      } catch (error) {
+        console.error("Fetch Error:", error);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    fetchLocations();
   }, []);
 
-  // useEffect(() => {
-  //   const fetchTourDetails = async () => {
-  //     try {
-  //       const response = await fetch("./api/getData/");
-  //       const result = await response.json();
-  //       setTours(result);
-  //       setLoading(false);
-  //     } catch (error) {
-  //       console.error("Error while fetching tours: ", error);
-  //       setLoading(false);
-  //     }
-  //   };
-  //   fetchTourDetails();
-  // }, []);
-
-  const router = useRouter();
+  const filteredLocations = locations.filter((location) => {
+    const locationName = location.name || location.tourName || location.locationName || "";
+    return locationName.toLowerCase().includes(searchQuery.toLowerCase());
+  });
   
-  const filteredTours = data.filter((tour) =>
-    tour.name.toLowerCase().includes(searchQuery.toLowerCase())
-  );
-
-
 
   if (loading) {
-    return <Loader />;
+    // return <Loader />;
   }
 
   return (
@@ -57,71 +54,44 @@ export default function Tours() {
       <div className="container">
         <div className="content-information">
           <div className="information-utilities">
-            <div>
-             
-              <input  className="information-searchbox"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="search tour"
-
-              />
-              
+            <input
+              className="information-searchbox"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Search location"
+            />
+            <Link href={"/tours/locations/add-location"}>
+              <div className="information-add-btn">
+              add tour
               </div>
-            <div className="information-add-btn">add tour</div>
+              </Link>
+          
           </div>
           <div className="table-wrapper">
             <table className="tour-table">
               <thead className="tours-table-header">
                 <tr className="bg-gray-100">
-                  <th className="t-first-row"> tour Id</th>
+                  <th className="t-first-row">Location ID</th>
                   <th>Cover</th>
-                  <th>tour name</th>
-                  <th>Location</th>
-                  <th>Category</th>
+                  <th>Location Name</th>
                   <th></th>
                 </tr>
               </thead>
-              {/* <tbody className="tour-table-body">
-                {data.map((item) => (
-                  <tr key={item.id}>
-                    <td className="t-first-row">{item.id}</td>
-                    <td>
-                      <Image
-                        src={item.image}
-                        width={50}
-                        height={50}
-                        alt={item.name}
-                      />
-                    </td>
-                    <td>{item.name}</td>
-                    <td>{item.location}</td>
-                    <td>{item.category}</td>
 
-                    <td className="t-edit-btns">
-                      <span>
-                        <HiDotsVertical />
-                      </span>
-                    </td>
-                  </tr>
-                ))}
-              </tbody> */}
               <tbody className="tour-table-body">
-                {filteredTours.length > 0 ? (
-                  filteredTours.map((item) => (
+                {filteredLocations.length > 0 ? (
+                  filteredLocations.map((item) => (
                     <tr key={item.id}>
                       <td className="t-first-row">{item.id}</td>
                       <td>
                         <Image
-                          src={item.image}
+                          src={item.image || "/default-image.jpg"}
                           width={50}
                           height={50}
-                          alt={item.name}
+                          alt={item.name || "Location Image"}
                         />
                       </td>
-                      <td>{item.name}</td>
-                      <td>{item.location}</td>
-                      <td>{item.category}</td>
-
+                      <td>{item.name || "N/A"}</td>
                       <td className="t-edit-btns">
                         <span>
                           <HiDotsVertical />
@@ -131,8 +101,8 @@ export default function Tours() {
                   ))
                 ) : (
                   <tr>
-                    <td colSpan="6" className="text-center text-gray-500">
-                      No matching tours found
+                    <td colSpan="4" className="text-center text-gray-500">
+                      No locations found
                     </td>
                   </tr>
                 )}

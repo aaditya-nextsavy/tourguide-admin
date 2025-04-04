@@ -6,120 +6,97 @@ import { useRouter } from "next/navigation";
 import Loader from "@/components/Loader";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
+import Link from "next/link";
 import { HiDotsVertical } from "react-icons/hi";
-
-// import sampleImage from '@'
-
+import sampleImage from "../../../public/assets/media/trending-city/london-video.png"
 export default function Tours() {
-  const [tours, setTours] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [t_slug, setSlug] = useState("");
-  const [t_name, setName] = useState("");
-  const [message, setMessage] = useState("");
-  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [fetchedData, setFetchedData] = useState([]); 
   const [searchQuery, setSearchQuery] = useState("");
-  const [fetchedData, setFetchedData] = useState("");
 
   useEffect(() => {
-    fetch("/assets/data/getAllTourData.json")
-      .then((response) => response.json())
-      .then((jsonData) => setData(jsonData))
-      .catch((error) => console.error("Error loading data:", error));
-  }, []);
-
-  useEffect(() => {
-    async function fetchCategories() {
+    async function fetchTours() {
       try {
-        const response = await fetch("/api/get?type=tours");
+        const response = await fetch("/api/tours");
         const result = await response.json();
         if (result.success) {
-          console.log("tours:", result.data);
-          setFetchedData(result.data);
-          console.log("fetched Data :", fetchedData);
-          console.log("fetched Data  1 :", fetchedData[0]);
+          setFetchedData(result.data || []);
+          setLoading(false)
         } else {
-          console.error("Error fetching categories:", result.error);
+          console.error("Error fetching tours:", result.error);
         }
       } catch (error) {
         console.error("Fetch Error:", error);
       }
     }
-
-    fetchCategories();
-    console.log("fetched Data  1 :", fetchedData[0]);
+    fetchTours();
   }, []);
-
-  // useEffect(() => {
-  //   const fetchTourDetails = async () => {
-  //     try {
-  //       const response = await fetch("./api/getData/");
-  //       const result = await response.json();
-  //       setTours(result);
-  //       setLoading(false);
-  //     } catch (error) {
-  //       console.error("Error while fetching tours: ", error);
-  //       setLoading(false);
-  //     }
-  //   };
-  //   fetchTourDetails();
-  // }, []);
 
   const router = useRouter();
 
-  const filteredTours = data.filter((tour) =>
-    tour.name.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  const safeSearchQuery = searchQuery?.toLowerCase() || "";
 
-  if (loading) {
-    return <Loader />;
-  }
+  const filteredTours = fetchedData.filter((tour) => {
+    const query = searchQuery.toLowerCase();
+    return (
+      (tour?.tourName && tour.tourName.toLowerCase().includes(query)) ||
+      (tour?.category && tour.category.toLowerCase().includes(query)) ||
+      (tour?.id && tour.id.toLowerCase().includes(query)) ||
+      (tour?.location && tour.location.toLowerCase().includes(query))
+    );
+  });
+  
+
+  // if (loading) return <Loader />;
 
   return (
     <div className="main-content">
-      <Navbar />
+
+    <Navbar title="All Tours" backFlag={false} />
+
       <div className="container">
         <div className="content-information">
           <div className="information-utilities">
-            <div>
-              <input
-                className="information-searchbox"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="search tour"
-              />
-            </div>
-            <div className="information-add-btn">add tour</div>
+            <input
+              className="information-searchbox"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Search tour"
+            />
+            <Link href={"/tours/all-tours/add-tour"}>
+              <div className="information-add-btn">Add Tour</div>
+            </Link>
           </div>
+
           <div className="table-wrapper">
             <table className="tour-table">
               <thead className="tours-table-header">
                 <tr className="bg-gray-100">
-                  <th className="t-first-row"> tour Id</th>
+                  <th className="t-first-row">Tour ID</th>
                   <th>Cover</th>
-                  <th>tour name</th>
+                  <th>Tour Name</th>
                   <th>Location</th>
                   <th>Category</th>
                   <th></th>
                 </tr>
               </thead>
-           
+
               <tbody className="tour-table-body">
-                {fetchedData.length > 0 ? (
-                  fetchedData.map((item) => (
+                {filteredTours.length > 0 ? (
+                  filteredTours.map((item) => (
                     <tr key={item.id}>
-                      <td className="t-first-row">{item.id}</td>{" "}
-                      {/* Show Firestore ID */}
+                      <td className="t-first-row">{item.id}</td>
                       <td>
                         <Image
-                          src={item.image || "/default-image.jpg"} 
+                          src={item.image || "/assets/media/trending-city/london-video.png"}
                           width={50}
                           height={50}
                           alt={item.tourName || "Tour Image"}
                         />
                       </td>
                       <td>{item.tourName || "N/A"}</td>
-                      <td>{item.location || "N/A"}</td> 
-                      <td>{item.category || "N/A"}</td> 
+                      <td>{item.location || "N/A"}</td>
+                      <td>{item.category || "N/A"}</td>
                       <td className="t-edit-btns">
                         <span>
                           <HiDotsVertical />

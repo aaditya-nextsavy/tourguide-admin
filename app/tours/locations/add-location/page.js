@@ -13,6 +13,7 @@ export default function Tours() {
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     tourName: "",
+    locationName:"N/A",
     title: "",
     location: "",
     tourSlug: "",
@@ -55,7 +56,7 @@ export default function Tours() {
   const router = useRouter();
 
   if (loading) {
-    return <Loader />;
+    // return <Loader />;
   }
 
   const handleSubmit = async () => {
@@ -67,7 +68,7 @@ export default function Tours() {
 
 
     try {
-        const response = await fetch("/api/post?type=locations", {
+        const response = await fetch("/api/locations", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(updatedFormData),

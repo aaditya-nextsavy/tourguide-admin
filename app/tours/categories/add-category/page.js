@@ -26,7 +26,7 @@ export default function Tours() {
     description: "",
     activity: "",
     included: [],
-    notIncluded: [],
+    notIncluded: [1],
     isActive: false,
     popularTour: false,
   });
@@ -55,20 +55,18 @@ export default function Tours() {
   const router = useRouter();
 
   if (loading) {
-    return <Loader />;
+    // return <Loader />;
   }
-
 
   const handleSubmit = async () => {
     const tourSlug = formData.tourName.toLowerCase().replace(/\s+/g, "-");
-    const updatedFormData = { ...formData, tourSlug,
-      categoryName: formData.category,
-     };
+    const updatedFormData = { ...formData, tourSlug };
     console.log("Submitting Data:", updatedFormData); 
 
 
     try {
-        const response = await fetch("/api/post?type=categories", {
+
+            const response = await fetch("/api/categories", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(updatedFormData),
@@ -315,7 +313,7 @@ export default function Tours() {
                         <input
                           type="checkbox"
                           value={item}
-                          checked={formData.included.includes(item)}
+                          checked={formData.notIncluded.includes(item)}
                           onChange={(e) => handleCheckboxArray(e, "included")}
                         />{" "}
                         {item}

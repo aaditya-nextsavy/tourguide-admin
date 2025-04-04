@@ -6,7 +6,9 @@ import { useRouter } from "next/navigation";
 import Loader from "@/components/Loader";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
+import Link from "next/link";
 import { HiDotsVertical } from "react-icons/hi";
+// import sampleImage from '@'
 
 export default function Tours() {
   const [tours, setTours] = useState([]);
@@ -16,6 +18,7 @@ export default function Tours() {
   const [message, setMessage] = useState("");
   const [data, setData] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
+  const [fetchedData, setFetchedData] = useState("");
 
   useEffect(() => {
     fetch("/assets/data/getAllTourData.json")
@@ -24,31 +27,37 @@ export default function Tours() {
       .catch((error) => console.error("Error loading data:", error));
   }, []);
 
-  // useEffect(() => {
-  //   const fetchTourDetails = async () => {
-  //     try {
-  //       const response = await fetch("./api/getData/");
-  //       const result = await response.json();
-  //       setTours(result);
-  //       setLoading(false);
-  //     } catch (error) {
-  //       console.error("Error while fetching tours: ", error);
-  //       setLoading(false);
-  //     }
-  //   };
-  //   fetchTourDetails();
-  // }, []);
+  useEffect(() => {
+    async function fetchCategories() {
+      try {
+        const response = await fetch("/api/categories");
+        const result = await response.json();
+        if (result.success) {
+          console.log("tours:", result.data);
+          setFetchedData(result.data);
+          console.log("fetched Data :", fetchedData);
+          console.log("fetched Data  1 :", fetchedData[0]);
+        } else {
+          console.error("Error fetching categories:", result.error);
+        }
+      } catch (error) {
+        console.error("Fetch Error:", error);
+      }
+    }
+
+    fetchCategories();
+    console.log("fetched Data  1 :", fetchedData[0]);
+  }, []);
+
 
   const router = useRouter();
-  
+
   const filteredTours = data.filter((tour) =>
     tour.name.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
-
-
   if (loading) {
-    return <Loader />;
+    // return <Loader />;
   }
 
   return (
@@ -58,16 +67,21 @@ export default function Tours() {
         <div className="content-information">
           <div className="information-utilities">
             <div>
-             
-              <input  className="information-searchbox"
+              <input
+                className="information-searchbox"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="search tour"
-
               />
-              
+            </div>
+            
+            <Link href={"/tours/categories/add-category"}>
+              <div className="information-add-btn">
+              add tour
               </div>
-            <div className="information-add-btn">add tour</div>
+              </Link>
+          
+
           </div>
           <div className="table-wrapper">
             <table className="tour-table">
@@ -81,47 +95,24 @@ export default function Tours() {
                   <th></th>
                 </tr>
               </thead>
-              {/* <tbody className="tour-table-body">
-                {data.map((item) => (
-                  <tr key={item.id}>
-                    <td className="t-first-row">{item.id}</td>
-                    <td>
-                      <Image
-                        src={item.image}
-                        width={50}
-                        height={50}
-                        alt={item.name}
-                      />
-                    </td>
-                    <td>{item.name}</td>
-                    <td>{item.location}</td>
-                    <td>{item.category}</td>
-
-                    <td className="t-edit-btns">
-                      <span>
-                        <HiDotsVertical />
-                      </span>
-                    </td>
-                  </tr>
-                ))}
-              </tbody> */}
+           
               <tbody className="tour-table-body">
-                {filteredTours.length > 0 ? (
-                  filteredTours.map((item) => (
+                {fetchedData.length > 0 ? (
+                  fetchedData.map((item) => (
                     <tr key={item.id}>
                       <td className="t-first-row">{item.id}</td>
+                      {/* Show Firestore ID */}
                       <td>
                         <Image
-                          src={item.image}
+                          src={item.image || "/default-image.jpg"} 
                           width={50}
                           height={50}
-                          alt={item.name}
+                          alt={item.tourName || "Tour Image"}
                         />
                       </td>
-                      <td>{item.name}</td>
-                      <td>{item.location}</td>
-                      <td>{item.category}</td>
-
+                      <td>{item.tourName || "N/A"}</td>
+                      <td>{item.location || "N/A"}</td> 
+                      <td>{item.category || "N/A"}</td> 
                       <td className="t-edit-btns">
                         <span>
                           <HiDotsVertical />
@@ -132,7 +123,7 @@ export default function Tours() {
                 ) : (
                   <tr>
                     <td colSpan="6" className="text-center text-gray-500">
-                      No matching tours found
+                      No tours found
                     </td>
                   </tr>
                 )}

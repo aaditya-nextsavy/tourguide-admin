@@ -33,7 +33,7 @@ export default function Home() {
   };
 
   if (loading) {
-    return <Loader />;
+    // return <Loader />;
   }
 
   return (
