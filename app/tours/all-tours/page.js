@@ -72,10 +72,10 @@ export default function Tours() {
                 <tr className="bg-gray-100">
                   <th className="t-first-row">Tour ID</th>
                   <th>Cover</th>
-                  <th>Tour Name</th>
+                  <th style={{width:'300px'}}>Tour Name</th>
                   <th>Location</th>
                   <th>Category</th>
-                  <th></th>
+                  
                 </tr>
               </thead>
 
@@ -103,13 +103,10 @@ export default function Tours() {
                         )}
                       </td>
                       <td>{item.tourName || "N/A"}</td>
+                      
                       <td>{item.location || "N/A"}</td>
                       <td>{item.category || "N/A"}</td>
-                      <td className="t-edit-btns">
-                        <span>
-                          <HiDotsVertical />
-                        </span>
-                      </td>
+                     
                     </tr>
                   ))
                 ) : (

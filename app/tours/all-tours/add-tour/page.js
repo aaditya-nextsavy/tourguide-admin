@@ -562,6 +562,7 @@ export default function Tours() {
                       type="number"
                       name="reviews"
                       min="0"
+                      placeholder="number of reviews"
                       value={formData.reviews}
                       onChange={handleInputChange}
                     />

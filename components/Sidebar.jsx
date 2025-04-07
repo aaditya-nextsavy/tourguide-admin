@@ -1,62 +1,40 @@
-"use client"
+"use client";
 
 import { useState } from "react";
 import Link from "next/link";
-import { FaCaretUp } from "react-icons/fa6";
-import { FaCaretDown } from "react-icons/fa6";
-
+import { usePathname } from "next/navigation";
+import { FaCaretUp, FaCaretDown } from "react-icons/fa6";
+import { MdTour } from "react-icons/md";
+import { MdCategory } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
 
 
 export default function Sidebar() {
-  const [isToursOpen, setIsToursOpen] = useState(false);
+  const pathname = usePathname();
 
-  const toggleTours = () => {
-    setIsToursOpen(!isToursOpen);
+  const getLinkClasses = (path) => {
+    const isActive = pathname === path;
+    return `sidebar-link ${isActive ? "active" : ""}`;
   };
 
   return (
-    <section className="sidebar-wrapper text-white h-screen">
+    <section className="sidebar-wrapper">
       <p className="tourguide-header">tourguide</p>
-      <ul>
-        {/* Tours Section with Accordion */}
-        <li className="mb-4">
-          <div onClick={toggleTours} className="flex items-center cursor-pointer">
-            <span className="mr-2">Tours</span>
-            <span>{isToursOpen ? <FaCaretUp /> : <FaCaretDown/>}</span>
-          </div>
-          {isToursOpen && (
-            <ul className="ml-4 mt-2">
-              <li className="mb-2">
-                <Link href="/tours/all-tours" className="hover:text-gray-300">
-                  All tours
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link href="/tours/categories" className="hover:text-gray-300">
-                  Categories
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link href="/tours/locations" className="hover:text-gray-300">
-                  Locations
-                </Link>
-              </li>
-            </ul>
-          )}
-        </li>
-        
-        {/* Users Section */}
-        <li className="mb-4">
-          <Link href="/users" className="hover:text-gray-300">
-            Users
+      <ul className="sidebar-menu">
+        <li className={getLinkClasses("/tours/all-tours")}>
+          <Link href="/tours/all-tours">
+            <MdTour className="icon" /> All tours
           </Link>
         </li>
 
-        {/* Settings Section */}
-        <li className="mb-4">
-          <Link href="/settings" className="hover:text-gray-300">
-            Settings
-          </Link>
+        <li className={getLinkClasses("/tours/categories")}>
+          <Link href="/tours/categories">
+          <MdCategory className="icon" /> Categories</Link>
+        </li>
+
+        <li className={getLinkClasses("/tours/locations")}>
+          <Link href="/tours/locations">
+          <FaLocationDot className="icon" />Locations</Link>
         </li>
       </ul>
     </section>

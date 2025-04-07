@@ -50,6 +50,34 @@
   text-align: start;
 }
 
+.tourguide-header ul {
+  gap: 20px;
+}
+.sidebar-link {
+  margin: 15px 0;
+  transition: color 0.2s ease;
+}
+
+.sidebar-link a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sidebar-link a:hover {
+  color: #c9ebe4; 
+}
+
+.sidebar-link.active a {
+  color: var(--color-green-light);
+  font-weight: 600;
+}
+
+
+
 /* navbar */
 .navbar-section-wrapper {
   width: 100%;
@@ -291,8 +319,11 @@
 }
 
 @media (max-width:900px) {
+  .table-wrapper {
+    overflow-x: auto;
+}
 
-  .sidebar-section-wrapper {
+  /* .sidebar-section-wrapper {
     position: absolute;
     left: 0;
     top: 0;
@@ -300,9 +331,9 @@
     padding: 0px 20px;
     height: 100vh;
     background-color: var(--color-text-dark);
-}
-  .main-content-wrapper{
+} */
+  /* .main-content-wrapper{
     width: 100%;
-  }
+  } */
   
 }

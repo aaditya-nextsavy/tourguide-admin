@@ -73,8 +73,9 @@ export default function Locations() {
                 <tr className="bg-gray-100">
                   <th className="t-first-row">Location ID</th>
                   <th>Cover</th>
-                  <th>Location Name</th>
-                  <th></th>
+                  <th>Tour Name</th>
+                  <th>Location</th>
+                  
                 </tr>
               </thead>
 
@@ -91,12 +92,9 @@ export default function Locations() {
                           alt={item.name || "Location Image"}
                         />
                       </td>
-                      <td>{item.name || "N/A"}</td>
-                      <td className="t-edit-btns">
-                        <span>
-                          <HiDotsVertical />
-                        </span>
-                      </td>
+                      <td key={item.title}></td>
+                      <td>{item.location || "N/A"}</td>
+                     
                     </tr>
                   ))
                 ) : (
