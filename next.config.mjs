@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: false,
     images: {
-      domains: ["www.istockphoto.com"],
+      domains: ["www.istockphoto.com","www.pexels.com","images.pexels.com"],
     },
     async redirects() {
       return [
