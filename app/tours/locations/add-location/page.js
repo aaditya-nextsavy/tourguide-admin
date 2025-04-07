@@ -261,7 +261,7 @@ export default function Tours() {
     console.log("Submitting Data:", updatedFormData);
 
     try {
-      const response = await fetch("/api/categories", {
+      const response = await fetch("/api/locations", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(updatedFormData),
